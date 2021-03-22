@@ -1,15 +1,133 @@
-.linkItem {
+.footer {
+    font-family: Source Sans Pro;
+    background-color: #6b6257;
+    color: #e6ded4;
+    z-index: 2998;
+}
 
+.linkItem {
+    list-style: none;
 }
 
 .link {
-    
+    color: #e6ded4;
+    font-weight: 400;
+    margin: 0;
+    border: none;
+    justify-content: left;
+    min-width: 0;
+    cursor: pointer;
+    font-size: .625rem;
+}
+
+.link:last-child {
+    padding: 0;
+}
+
+.emailHeader {
+    font-family: OptimaNovaLT,Times New Roman,Times,Georgia,serif;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
 }
 
 .linkList {
-
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: stretch;
+    line-height: 1.5;
+    flex-basis: 26%;
+    margin-bottom: 1.5rem;
 }
 
 .linkListTitle {
-    
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0;
+    font-size: .75rem;
+    line-height: 1;
+}
+
+.linkListContainer {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1.75rem 0;
+    padding: 0 1rem;
+}
+
+.footerText {
+    margin-bottom: 0;
+    letter-spacing: normal;
+    font-size: .75rem;
+    line-height: 1.5;
+    font-weight: 400;
+    text-transform: normal;
+}
+
+.emailSubheader {
+    letter-spacing: .25px;
+    font-size: .625rem;
+}
+
+.bottomContainer {
+    background: #463f38;
+}
+
+.bottomContainer p {
+    color: #e6ded4;
+    font-size: .625rem;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+.bottomContainer a, .bottomContainer p {
+    color: #e6ded4;
+    font-size: .625rem;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+@media (min-width: 768px) {
+    .linkListContainer {
+        margin: .75rem 0;
+        padding: 0;
+    }
+
+    .linkList {
+        flex-basis: auto;
+    }
+
+    .linkListTitle {
+        font-size: .625rem;
+    }
+
+    .link {
+        font-size: .625rem;
+    }
+
+    .emailHeader {
+        font-size: 1rem;
+    }
+
+    .emailSubheader {
+        font-size: .75rem;
+    }
+}
+
+@media (min-width: 1025px) {
+    .linkListTitle {
+        font-size: .75rem;
+    }
+
+    .link {
+        font-size: .75rem;
+    }
+
+    .emailHeader {
+        font-size: 1.5rem;
+    }
 }

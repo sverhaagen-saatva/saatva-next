@@ -4,20 +4,20 @@ import Link from 'next/Link'
 import styles from '../Footer.module.css'
 
 const LinkItem = ({
-    className,
     href,
     text,
     onClick,
-    target,
-    ...other
+    target
 }) => {
     return (
         <li className={styles.linkItem}>
             { onClick
                 ? <button className={styles.link} onClick={() => onClick()}>{text}</button>
                 : (
-                    <Link className={styles.link} href={href} target={target} {...other}>
-                        {text}
+                    <Link href={href} target={target}>
+                        <a className={styles.link}>
+                            {text}
+                        </a>
                     </Link>
                 )
             }

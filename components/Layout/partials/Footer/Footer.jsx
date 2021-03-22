@@ -1,3 +1,4 @@
+import classNames from 'classnames'
 import React from 'react'
 
 import {
@@ -7,9 +8,11 @@ import {
     FooterBottom
 } from './partials'
 
+import styles from './Footer.module.css'
+
 const Footer = () => {
     return (
-        <section className="section footer u-paddingTop u-paddingBottom--none">
+        <section className={classNames(styles.footer, 'section', 'u-paddingTop', 'u-paddingBottom--none')}>
             <div className="container">
                 <div className="row row--center-xs">
 
@@ -24,10 +27,8 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="footer__bottomContainer">
-                <div className="container--col">
-                    <FooterBottom />
-                </div>
+            <div className={styles.bottomContainer}>
+                <FooterBottom />
             </div>
         </section>
     )

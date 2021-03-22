@@ -8,14 +8,16 @@ import {
 
 import { linkLists } from '../data'
 
+import styles from '../Footer.module.css'
+
 const FooterLinks = () => {
     return (
-        <div className="footer__linkListContainer">
+        <div className={styles.linkListContainer}>
             {linkLists.map((linkList, i) => (
                 <LinkList key={i} title={linkList.title}>
                     {linkList.items.map((listItem, j) => {
                         const classes = classNames({
-                            'footer__linkItem--nested': listItem.nested
+                            [styles.linkItemNested]: listItem.nested
                         })
 
                         const itemProps = {
