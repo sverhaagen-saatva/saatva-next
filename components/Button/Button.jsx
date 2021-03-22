@@ -16,9 +16,9 @@ const Button = ({
             {children}
         </a>
     ) : (
-        <button 
-            className={classNames(styles.button, styles[kind], className, {[styles.isDisabled]: disabled})}
-            type={type} 
+        <button
+            className={classNames(styles.button, styles[kind], className, { [styles.isDisabled]: disabled })}
+            type={type}
             onClick={evt => {
                 if (!disabled) {
                     onClick(evt)
@@ -26,7 +26,7 @@ const Button = ({
             }}
 
         >
-            Button
+            {children}
         </button>
     )
 }
@@ -38,5 +38,5 @@ Button.defaultProps = {
     disabled: false,
     kind: '',
     target: '_self',
-    onClick: () => {}
+    onClick: () => { }
 }

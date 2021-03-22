@@ -9,6 +9,8 @@ import classNames from 'classnames'
 import { Button } from '../Button'
 import TextInput from '../TextInput'
 
+import styles from './EmailSubscriptionForm.module.css'
+
 const EmailSubscriptionForm = ({
     // TODO: Leaving this commented out for now as we move to cordial
     // emailKey,
@@ -64,8 +66,8 @@ const EmailSubscriptionForm = ({
             setError(errorMsg)
         }
     }
-    const classes = classNames('emailSubscriptionForm', className)
-    const inputClasses = classNames('emailSubscriptionForm__emailInput', {
+    const classes = classNames(styles.emailSubscriptionForm, className)
+    const inputClasses = classNames(styles.emailInput, {
         'emailSubscriptionForm__emailInput--has-error': error,
         'emailSubscriptionForm__emailInput--standAloneInput': standAloneInput
     })
@@ -73,7 +75,7 @@ const EmailSubscriptionForm = ({
         'emailSubscriptionForm__label--has-error': error,
         'emailSubscriptionForm__label--standAloneInput': standAloneInput
     })
-    const buttonClasses = classNames('emailSubscriptionForm__button', {
+    const buttonClasses = classNames(styles.button, {
         'emailSubscriptionForm__button--standAloneInput': standAloneInput
     })
     return (
@@ -85,12 +87,12 @@ const EmailSubscriptionForm = ({
                 errorMessage={error || 'Email Error'}
                 labelText={error || success || 'Your Email Address'}
                 labelClassName={labelClasses}
-                inputClassName="emailSubscriptionForm__input"
+                inputClassName={styles.input}
                 initialValue={email}
                 onTextChange={(e) => updateEmail(e.target.value)}
                 pattern="^\s*(([a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]{1}([a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]|\.(?!\.))*)[a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]{1}@[a-zA-Z0-9]{1}[a-zA-Z0-9-]+[a-zA-Z0-9]{1}(?:\.[a-zA-Z]{2,}))\s*$"
                 onClick={() => clearMessages()}
-                onFocus={() => clearMessages()}/>
+                onFocus={() => clearMessages()} />
             <Button
                 className={buttonClasses}
                 kind="primary"
@@ -117,7 +119,7 @@ EmailSubscriptionForm.propTypes = {
 EmailSubscriptionForm.defaultProps = {
     emailKey: 'Saatva',
     inputName: 'emailSubscription',
-    validationCallback: () => {},
+    validationCallback: () => { },
     errorMsg: 'Invalid email',
     standAloneInput: false
 }
