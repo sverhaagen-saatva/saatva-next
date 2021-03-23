@@ -1,4 +1,3 @@
-import React from 'react'
 // import { Icon } from 'saatva_pattern_library'
 
 const FooterBottom = () => {

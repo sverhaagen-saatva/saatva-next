@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import classNames from 'classnames'
-import styles from './TextInput.module.css'
+import styles from './TextInput.module.scss'
 
 const TextInput = ({ id, label, initialValue, className, inputClassName, error }) => {
     const [value, setValue] = useState(initialValue)

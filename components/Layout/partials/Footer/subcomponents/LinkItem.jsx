@@ -1,7 +1,6 @@
-import React from 'react'
 import Link from 'next/Link'
 
-import styles from '../Footer.module.css'
+import styles from '../Footer.module.scss'
 
 const LinkItem = ({
     href,

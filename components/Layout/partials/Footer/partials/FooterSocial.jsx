@@ -1,4 +1,3 @@
-import React from 'react'
 import { socialMediaIconData } from '../data'
 
 const EmailSection = () => {
