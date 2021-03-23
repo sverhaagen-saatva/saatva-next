@@ -1,4 +1,3 @@
-import React from 'react'
 import classNames from 'classnames'
 
 import {
@@ -8,7 +7,7 @@ import {
 
 import { linkLists } from '../data'
 
-import styles from '../Footer.module.css'
+import styles from '../Footer.module.scss'
 
 const FooterLinks = () => {
     return (

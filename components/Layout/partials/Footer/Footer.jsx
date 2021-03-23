@@ -1,5 +1,4 @@
 import classNames from 'classnames'
-import React from 'react'
 
 import {
     FooterEmail,
@@ -8,7 +7,7 @@ import {
     FooterBottom
 } from './partials'
 
-import styles from './Footer.module.css'
+import styles from './Footer.module.scss'
 
 const Footer = () => {
     return (

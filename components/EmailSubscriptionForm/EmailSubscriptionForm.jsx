@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
 
@@ -6,10 +6,10 @@ import classNames from 'classnames'
 // import { subscribeUser } from '../../../service'
 // import { createCordialContact } from '../../../utils/cordial'
 // import { useTrackEventForGa } from '../../hooks'
-import { Button } from '../Button'
-import TextInput from '../TextInput'
+import { Button } from '@components/Button'
+import { TextInput } from '@components/TextInput'
 
-import styles from './EmailSubscriptionForm.module.css'
+import styles from './EmailSubscriptionForm.module.scss'
 
 const EmailSubscriptionForm = ({
     // TODO: Leaving this commented out for now as we move to cordial

@@ -1,9 +1,7 @@
-import React from 'react'
-
 import classNames from 'classnames'
 import EmailSubscriptionForm from '../../../../EmailSubscriptionForm/EmailSubscriptionForm'
 
-import styles from '../Footer.module.css'
+import styles from '../Footer.module.scss'
 
 const EmailSection = () => {
     return (

@@ -1,5 +1,4 @@
-import React from 'react'
-import styles from '../Footer.module.css'
+import styles from '../Footer.module.scss'
 
 const LinkList = ({ title, children }) => (
     <div className={styles.linkList}>
