@@ -1,0 +1,23 @@
+//-------------------------------------------
+// Hero Styles
+// ------------------------------------------
+
+// Hero Variables
+$hero-color:            #fff !default;
+$hero-text-shadow:      0 0 10px rgba(0, 0, 0, 0.4) !default;
+$hero-heading-extend:   '.t-heading' !default;
+$hero-body-extend:      '.t-body-lg' !default;
+
+.hero {
+    display: flex;
+    align-items: center;
+    height: 315px;
+    min-height: 315px;
+
+    background-size: cover;
+    background-position: center 0%;
+
+    @media (min-width: 768px) {
+        min-height: 420px;
+    }
+}
