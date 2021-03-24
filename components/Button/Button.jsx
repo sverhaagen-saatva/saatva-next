@@ -12,7 +12,7 @@ const Button = ({
     onClick
 }) => {
     return href ? (
-        <a {...buttonProps} href={href} target={target} role="button" {...other} >
+        <a className={classNames(styles.button, styles[kind], className, { [styles.isDisabled]: disabled })}href={href} target={target} role="button" >
             {children}
         </a>
     ) : (
