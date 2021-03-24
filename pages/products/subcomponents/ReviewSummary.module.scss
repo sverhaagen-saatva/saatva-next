@@ -1,0 +1,36 @@
+.reviewSummary {
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.reviewSummaryStars {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    line-height: normal;
+}
+
+
+.reviewSummaryText {
+    font-size: .875rem;
+    margin-left: .5rem;
+    margin-bottom: 0;
+    letter-spacing: normal;
+    font-size: .75rem;
+    line-height: 1.67;
+    font-weight: 400;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media (min-width: 1025px) {
+    .reviewSummaryText {
+        font-size: .75rem;
+    }
+}

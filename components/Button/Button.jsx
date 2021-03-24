@@ -24,7 +24,6 @@ const Button = ({
                     onClick(evt)
                 }
             }}
-
         >
             {children}
         </button>

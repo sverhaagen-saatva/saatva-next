@@ -1,0 +1,150 @@
+//-------------------------------------------
+// Icon Styles
+// ------------------------------------------
+
+// Icon Variables
+$icon-colors-default: (
+    base: $scaffold,
+    article: $scaffold,
+    cart: $scaffold,
+    call: $scaffold,
+    chat: $scaffold,
+    circleCheck: $scaffold,
+    close: $scaffold,
+    delivery: $scaffold,
+    finance: $scaffold,
+    less: $scaffold,
+    more: $scaffold,
+    navArrow: $scaffold,
+    saatvaLogo: $scaffold,
+    trial: $scaffold,
+    warranty: $scaffold
+) !default;
+
+$icon-colors-custom: () !default;
+
+$icon-colors-config: map-merge($icon-colors-default, $icon-colors-custom);
+
+.icon-- {
+    &arrow-down,
+    &arrow-left,
+    &arrow-right,
+    &bag,
+    &chevron-right,
+    &chevron-left,
+    &call,
+    &chat,
+    &check,
+    &close,
+    &concierge,
+    &cotton,
+    &delivery,
+    &expand,
+    &fairtrade,
+    &finance,
+    &more,
+    &less,
+    &navArrow,
+    &play,
+    &remote,
+    &removal,
+    &return,
+    &returns,
+    &saatvaLogo,
+    &staple,
+    &thread,
+    &trial,
+    &truck,
+    &warranty {
+        fill: none;
+        stroke: map-get($icon-colors-config, base);
+        stroke-width: 1;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+
+    @each $name, $value in $icon-colors-config {
+        &#{$name} {
+            stroke: $value;
+        }
+    }   
+
+    &cart {
+        fill: map-get($icon-colors-config, cart);
+    }
+
+    &circleCheck {
+        stroke-linecap: round;
+        stroke-width: 2;
+        stroke: white;
+        fill: none;
+        background-color: map-get($icon-colors-config, circleCheck);
+        border-radius: 50%;
+    }
+
+    &expand {
+        transition: transform .3s ease;
+    }
+
+
+    &questionMark {
+        circle {
+            fill: map-get($icon-colors-config, base);
+        }
+        path {
+            fill: $white;
+        }
+    }
+
+    &secure {
+        fill: map-get($icon-colors-config, base);
+    }
+
+    &delivery,
+    &trial {
+        stroke-width: 1.5;
+    }
+    
+    &back, &close, &less, &more {
+        stroke-width: 2;
+    }
+
+    &saatvaLogo {
+        fill: map-get($icon-colors-config, saatvaLogo);
+        stroke: none;
+    }
+    
+    &bag, &cart {
+        stroke: none;
+    }
+
+    &article {
+        fill: none;
+        stroke-width: 1;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+
+        circle {
+            fill: map-get($icon-colors-config, article);
+        }
+        path {
+            stroke: $white;
+        }
+    }
+    &sfc {
+        .st0{fill:$saatva-clay;}
+        .st1{fill:none;stroke:#FFFFFF;}
+        .st2{fill:$saatva-ash;}
+    }
+    &cottonLogo {
+        .st0{fill:$saatva-clay;}
+        .st1{fill:none;stroke:$saatva-clay;stroke-miterlimit:10;}
+        .st2{fill:$saatva-ash;}
+    }
+    &certipur {
+        .st0{fill:$saatva-clay;}
+        .st1{fill:#FFFFFF;}
+        .st2{fill:$saatva-ash;}
+    }
+
+}
