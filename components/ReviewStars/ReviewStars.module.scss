@@ -1,0 +1,52 @@
+//-------------------------------------------
+// ReviewStars Styles
+// ------------------------------------------
+
+// ReviewStars Variables
+
+$reviewStars-default: (
+    lineHeight:     1,
+    padding:        0 spacer(2xs) 0,
+    width:          13px,
+    height:         12px,
+    width-desktop:  17px,
+    height-desktop: 16px,
+) !default;
+
+$reviewStars-custom: () !default;
+
+$reviewStars-config: map-merge($reviewStars-default, $reviewStars-custom);
+
+.reviewStars {
+    line-height: map-get($reviewStars-config, lineHeight);
+
+    &--selection {
+        cursor: pointer;
+    }
+}
+
+.star {
+    margin: 0 .25rem;
+    width: 15px;
+    height: 15px;
+    fill: #d5aa63;
+    stroke: #d5aa63;
+
+    @media (min-width: 576px){
+        .reviewStars__star {
+            width: 17px;
+            height: 16px;
+        }
+    }
+
+    &:first-of-type {
+        margin-left: 0;
+    }
+    &:last-of-type {
+        margin-right: 0;
+    }
+}
+
+.emptyStar {
+    fill: none;
+}

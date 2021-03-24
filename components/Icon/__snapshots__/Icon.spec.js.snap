@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon renders correctly 1`] = `
+<svg
+  alt="review star"
+  aria-label="review star"
+  className="icon icon--star new-class"
+  description="review star"
+  fill="yellow"
+  height="24"
+  name="star"
+  role="img"
+  style={
+    Object {
+      "opacity": "0.5",
+    }
+  }
+  viewBox="0 0 17.053 16.978"
+  width="24"
+>
+  <title>
+    review star
+  </title>
+  <path
+    d="M15.5,6.956H10.206L10.093,6.6,8.512,1.648,6.825,6.956H1.5l4.283,3.211-.118.347L3.929,15.635l4.585-3.369.3.222,4.3,3.16L11.274,9.993l.3-.216Z"
+  />
+</svg>
+`;

@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReviewStars renders correctly 1`] = `
+<div
+  className="reviewStars"
+>
+  <svg
+    alt="1 Star"
+    aria-label="1 Star"
+    className="icon icon--star reviewStars__star"
+    description="1 Star"
+    name="star"
+    role="img"
+    viewBox="0 0 17.053 16.978"
+  >
+    <title />
+    <path
+      d="M15.5,6.956H10.206L10.093,6.6,8.512,1.648,6.825,6.956H1.5l4.283,3.211-.118.347L3.929,15.635l4.585-3.369.3.222,4.3,3.16L11.274,9.993l.3-.216Z"
+    />
+  </svg>
+  <svg
+    alt="2 Stars"
+    aria-label="2 Stars"
+    className="icon icon--star reviewStars__star"
+    description="2 Stars"
+    name="star"
+    role="img"
+    viewBox="0 0 17.053 16.978"
+  >
+    <title />
+    <path
+      d="M15.5,6.956H10.206L10.093,6.6,8.512,1.648,6.825,6.956H1.5l4.283,3.211-.118.347L3.929,15.635l4.585-3.369.3.222,4.3,3.16L11.274,9.993l.3-.216Z"
+    />
+  </svg>
+  <svg
+    alt="3 Stars"
+    aria-label="3 Stars"
+    className="icon icon--star reviewStars__star"
+    description="3 Stars"
+    name="star"
+    role="img"
+    viewBox="0 0 17.053 16.978"
+  >
+    <title />
+    <path
+      d="M15.5,6.956H10.206L10.093,6.6,8.512,1.648,6.825,6.956H1.5l4.283,3.211-.118.347L3.929,15.635l4.585-3.369.3.222,4.3,3.16L11.274,9.993l.3-.216Z"
+    />
+  </svg>
+  <svg
+    alt="4 Stars"
+    aria-label="4 Stars"
+    className="icon icon--star reviewStars__star"
+    description="4 Stars"
+    name="star"
+    role="img"
+    viewBox="0 0 17.053 16.978"
+  >
+    <title />
+    <path
+      d="M15.5,6.956H10.206L10.093,6.6,8.512,1.648,6.825,6.956H1.5l4.283,3.211-.118.347L3.929,15.635l4.585-3.369.3.222,4.3,3.16L11.274,9.993l.3-.216Z"
+    />
+  </svg>
+  <svg
+    alt="5 Stars"
+    aria-label="5 Stars"
+    className="icon icon--star reviewStars__star"
+    description="5 Stars"
+    name="star"
+    role="img"
+    viewBox="0 0 17.053 16.978"
+  >
+    <title />
+    <path
+      d="M15.5,6.956H10.206L10.093,6.6,8.512,1.648,6.825,6.956H1.5l4.283,3.211-.118.347L3.929,15.635l4.585-3.369.3.222,4.3,3.16L11.274,9.993l.3-.216Z"
+    />
+  </svg>
+</div>
+`;
