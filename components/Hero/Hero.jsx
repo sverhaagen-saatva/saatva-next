@@ -4,6 +4,7 @@ import './Hero.module.scss'
 import {
     ROOT_ASSET_PATH
 } from '../../config/globals'
+import Image from 'next/image'
 
 
 const Hero = ({
@@ -14,19 +15,21 @@ const Hero = ({
     imageFilename,
     ...other
 }) => {
-    let styles = {}
-    if(progressiveImage){
+    let backgroundPath = ''
+    if (progressiveImage) {
         const ROOT_ASSET_IMAGE_PATH = `${ROOT_ASSET_PATH}/images`
-        const backgroundPath = `${ROOT_ASSET_IMAGE_PATH}${imageFolderPath}/d-${imageFilename}@1x.jpg`
-        styles = {
-            backgroundImage: `url(${backgroundPath})`
-        }
+        backgroundPath = `${ROOT_ASSET_IMAGE_PATH}${imageFolderPath}/d-${imageFilename}@1x.jpg`
     }
     const classes = classNames('section section--alt hero', className)
 
     return (
-        <section className={classes} {...other} style={styles}>
-            {progressiveImage}
+        <section className={classes} {...other}>
+            <Image
+                src={backgroundPath}
+                alt="Picture of the author"
+                layout="fill"
+                objectFit='cover'
+            />
             <div className="container">
                 {children}
             </div>
