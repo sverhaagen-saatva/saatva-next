@@ -1,0 +1,190 @@
+$navBorderHeight: .006rem;
+$navHeight: 3.5rem;
+$navHeightLg: 4rem;
+$subNavHeight: 48px;
+
+$brandHeaderHeight: .5rem;
+
+$promoBannerHeight: 2.5rem;
+$navLinkItemHorizontalPaddingWithSubList: 1.25rem;
+
+.nav {
+    font-family: Source Sans Pro;
+    font-size: 1rem;
+    line-height: 1.25;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #6b6257;
+    height: $navHeightLg + $navBorderHeight;
+    font-weight: 300;
+}
+
+.nav__wrapper {
+    z-index: z(sticky) + 1;
+    width: 100%;
+    position: relative;
+}
+
+.nav__content {
+    width: 100%;
+    border-bottom: 1px solid #e3e3e3;
+    background-color: #fff;
+    overflow: visible;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1110px;
+    padding: 0;
+}
+
+.nav__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: color(contrast, white);
+    height: $navHeightLg + $navBorderHeight;
+}
+
+.nav__saatvaLogo {
+    width: 107px;
+    display: block;
+    fill: #c19678;
+    stroke: none;
+}
+
+.nav__navigation {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: auto;
+    margin: 0;
+}
+
+.nav__linkList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.nav__linkItem {
+    letter-spacing: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    &.nav__linkItem--secondary {
+        &:not(:last-child) {
+            margin-right: spacer(lg);
+        }
+    }
+
+    &--withOutSubList{
+        padding-left: 0;
+
+        .nav__linkItemContainer {
+            padding: 0 1rem;
+        }
+    }
+}
+
+.nav__linkItem__secondary {
+    margin-right: 1.5rem;
+
+    &:hover{
+        color: #b19780;
+    }
+}
+
+.nav_linkRelative {
+    position: relative;
+}
+
+.nav__linkItem__nav__linkItemContainer {
+    width: 100%;
+    justify-content: flex-start;
+    padding: 0 $navLinkItemHorizontalPaddingWithSubList;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    transition: color .25s;
+    line-height: 4rem;
+    color: #463f38;
+
+    &:hover{
+        color: #b19780;
+        border-bottom: 1px solid #6b6257;
+    }
+}
+
+.nav__linkItem__noBorder {
+    border: none;
+
+    &:hover{
+        border: none;
+    }
+}
+
+.nav__searchIcon {
+    width: 16px;
+    height: 16px;
+    fill: #6b6257;
+    stroke: none;
+    top: 1px;
+
+    &:hover {
+        fill: #c19678;
+        stroke: none;
+    }
+}
+
+.nav__accountIcon {
+    fill: #6b6257;
+    stroke: none;
+    top: 1px;
+    cursor: pointer;
+
+    &:hover {
+        fill: #c19678;
+        stroke: none;
+    }
+}
+
+.nav__cartIcon {
+    fill: #6b6257;
+    stroke: none;
+    top: 1px;
+    cursor: pointer;
+
+    &:hover {
+        fill: #c19678;
+        stroke: none;
+    }
+}
+
+.cartIcon__count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -6px;
+    right: -11px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #c19678;
+    color: white;
+    font-size: 10px;
+    line-height: 1;
+}
