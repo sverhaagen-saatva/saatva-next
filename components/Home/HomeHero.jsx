@@ -12,9 +12,6 @@ const HomeHero = ({
         <header>
             <Hero
                 className={`hero--home`}
-                progressiveImage
-                imageFilename={'hero-mattress-lineup'}
-                imageFolderPath={'/home/hero-mattress-lineup'}
             >
                 <div className='row'>
                     <div className={headerClasses}>
