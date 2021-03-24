@@ -19,7 +19,7 @@ const Hero = ({
         <section className={classes} {...other}>
             <Image
                 src={backgroundPath}
-                alt="Picture of the author"
+                alt="Hero matttress"
                 layout="fill"
                 objectFit='cover'
             />

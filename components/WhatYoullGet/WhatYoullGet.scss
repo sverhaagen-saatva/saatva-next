@@ -1,0 +1,42 @@
+.whatYoullGet {
+    padding: spacer(4xl) 0;
+
+    ~div {
+        height: 42px;
+        width: 100%;
+    }
+
+    @media (min-width: 768px) {
+        padding: 48px 0 80px;
+    }
+
+    &__tile {
+        margin-bottom: 40px;
+        align-items: center;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+
+        @media (min-width: 768px) {
+            margin-bottom: 0;
+        }
+
+        p {
+            -webkit-font-smoothing: antialiased;
+            font-family: "Source Sans Pro", "Open Sans", "Times New Roman", Times, Georgia, serif;
+            font-size: 1rem;
+            font-weight: 300;
+            letter-spacing: normal;
+            line-height: 1.75;
+            text-transform: none;
+        }
+    }
+
+    &__valueProp {
+        height: 42px;
+        stroke: #c19678;
+        fill: none;
+        width: 100%;
+    }
+}
