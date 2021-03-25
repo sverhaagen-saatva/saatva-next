@@ -41,7 +41,7 @@ const ShoppableHome = () => {
                         height={350}
                         objectFit="cover"
                     />
-                    <div className="shoppableHome__content shoppableHome__content--bottom">
+                    <div className={`shoppableHome__content shoppableHome__content--bottom shoppableHome__content--bottom--${product.sku}`}>
                         <div className='shoppableHome__mattressNameContainer'>
                             { product.sku === globals.skus.classic &&
                                 <SvgAwardWinning

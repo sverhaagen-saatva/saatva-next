@@ -55,16 +55,26 @@
     }
 
     &__content {
+        cursor: pointer;
         position: absolute;
         // left: 0;
         z-index: 1;
-        width: 100%;
+        // width: 100%;
         color: color(contrast, white);
 
         &--bottom {
             // bottom: 0;
             padding: spacer(sm);
-            background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+            transform: translateY(90px);
+            // background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+    
+            &--loom-and-leaf {
+                transform: translateY(110px);
+            }
+    
+            &--saatva-latex-hybrid {
+                transform: translateY(110px);
+            }
 
             @include breakpoint(lg) {
                 padding: spacer(lg) spacer(md);
