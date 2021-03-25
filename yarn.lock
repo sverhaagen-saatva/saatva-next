@@ -1519,6 +1519,11 @@ loader-utils@1.2.3:
     emojis-list "^2.0.0"
     json5 "^1.0.1"
 
+localized-strings@^0.2.0:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/localized-strings/-/localized-strings-0.2.4.tgz#9d61c06b60cc7b5edf7c46e6c7f2d1ecb84aeb2c"
+  integrity sha512-TKDhqFPkIIN/if2FSvVVZTaM/GP9TzfgdQ2uY65mr32xgFu5nqkKXprXbzy5rfx32DF5LDvS/y1UqYF/mAscYA==
+
 locate-path@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/locate-path/-/locate-path-5.0.0.tgz#1afba396afd676a6d42504d0a67a3a7eb9f62aa0"
@@ -2063,6 +2068,13 @@ react-lazyload@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/react-lazyload/-/react-lazyload-3.2.0.tgz#497bd06a6dbd7015e3376e1137a67dc47d2dd021"
   integrity sha512-zJlrG8QyVZz4+xkYZH5v1w3YaP5wEFaYSUWC4CT9UXfK75IfRAIEdnyIUF+dXr3kX2MOtL1lUaZmaQZqrETwgw==
+
+react-localization@^1.0.16:
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/react-localization/-/react-localization-1.0.16.tgz#1c7a7e6cae85ad2a6965e8b2d5db971649c3ecdb"
+  integrity sha512-frk4jYgnA1fNdRczVh5TSFWW1f4JaPo9Zz2IBAeQPYb5MKkujSMsqt/nj1nHTTBrOoEgWmrRn3V6OttLqOW90w==
+  dependencies:
+    localized-strings "^0.2.0"
 
 react-refresh@0.8.3:
   version "0.8.3"
