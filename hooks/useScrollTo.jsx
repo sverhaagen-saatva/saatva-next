@@ -1,6 +1,6 @@
 import Scroll from 'react-scroll'
-import globals from '../config/globals'
-import position from '../utils/position'
+import globals from '@config/globals'
+import position from '@utils/position'
 
 function useScrollTo(elementId) {
     return () => {

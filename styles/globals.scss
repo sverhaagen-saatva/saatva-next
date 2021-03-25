@@ -81,6 +81,12 @@ p, h1 {
     background-color: #fafafb;
 }
 
+@media (min-width: 768px) {
+    .section--lg {
+        padding: 5rem 0;
+    }
+}
+
 .container {
     position: relative;
     width: 100%;
@@ -127,28 +133,32 @@ p, h1 {
 }
 
 .u-marginBottom--2xs {
-    margin-bottom: .25rem;
+    margin-bottom: .25rem!important;
 }
 
 .u-marginLeft--2xs {
-    margin-left: .25rem;
+    margin-left: .25rem!important;
 }
 
 .u-marginBottom--lg {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem!important;
 }
 
 .u-marginRight--md {
-    margin-right: 1.25rem;
+    margin-right: 1.25rem!important;
 }
 
 .u-marginVertical--xs {
     margin-top: .5rem;
-    margin-bottom: .5rem;
+    margin-bottom: .5rem!important;
 }
 
 .u-margin--center {
-    margin: 0 auto;
+    margin: 0 auto!important;
+}
+
+.u-marginBottom--3xl {
+    margin-bottom: 3rem!important;
 }
 
 .col {
@@ -198,6 +208,14 @@ p, h1 {
 
 .u-cursorPointer {
     cursor: pointer;
+}
+
+.u-flexDisplay {
+    display: flex;
+}
+
+.u-flexJustify--spaceBetween {
+    justify-content: space-between;
 }
 
 @media only screen and (min-width: 0) {
@@ -291,6 +309,11 @@ p, h1 {
 
     .col--order-first-lg {
         order: -1;
+    }
+
+    .col--lg-6 {
+        flex-basis: 50%;
+        max-width: 50%;
     }
 
     .col--lg-7 {

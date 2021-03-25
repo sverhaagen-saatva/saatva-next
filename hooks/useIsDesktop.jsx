@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import globals from '../config/globals'
+import globals from '@config/globals'
 
 function useIsDesktop(isDesktopDefault) {
     const [isDesktop, setIsDesktop] = useState(isDesktopDefault)
