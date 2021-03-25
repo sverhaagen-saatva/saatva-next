@@ -1,0 +1,26 @@
+[
+    {
+        "sizeLabel": "Queen",
+        "price": 1499,
+        "sku": "saatva-classic",
+        "name": "Saatva Classic Mattress",
+        "category": "mattresses",
+        "imageName": "classic"
+    },
+    {
+        "sizeLabel": "Queen",
+        "price": 1799,
+        "sku": "loom-and-leaf",
+        "name": "Loom & Leaf Mattress",
+        "category": "mattresses",
+        "imageName": "loom"
+    },
+    {
+        "sizeLabel": "Queen",
+        "price": 1799,
+        "sku": "saatva-latex-hybrid",
+        "name": "Saatva Latex Hybrid Mattress",
+        "category": "mattresses",
+        "imageName": "hybrid"
+    }
+]

@@ -1,0 +1,2949 @@
+{
+    "lineal-adjustable-base": {
+        "productName": "Lineal Adjustable Base",
+        "pageTitle": "Adjustable Bed Base - Adjustable Bed Frame - Bed Bases | Saatva",
+        "pageDescription": "Customize your comfort for better sleep with the Lineal adjustable bed base from Saatva. Free white glove delivery.",
+        "abbreviatedName": "Lineal",
+        "productShortDescription": "Customized Sleep + Enhanced Comfort",
+        "category": "bases",
+        "valueProductKeyword": "Lineal Adjustable",
+        "options": {
+            "size": {
+                "display": "select"
+            },
+            "mattressSize": {
+                "display": "select"
+            }
+        },
+        "reviews": {
+            "customRating": 4.9
+        },
+        "sizes": [
+            {
+                "desc": "Twin",
+                "dimensions": "38\" x 75\""
+            },
+            {
+                "desc": "Twin XL",
+                "dimensions": "38\" x 80\""
+            },
+            {
+                "desc": "Full",
+                "dimensions": "54\" x 75\""
+            },
+            {
+                "desc": "Queen",
+                "dimensions": "60\" x 80\""
+            },
+            {
+                "desc": "King",
+                "dimensions": "76\" x 80\""
+            },
+            {
+                "desc": "Cal King",
+                "dimensions": "72\" x 84\""
+            }
+        ],
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "lineal-carousel-1",
+                            "thumbName": "lineal-thumb-1"
+                        },
+                        "king": {
+                            "name": "lineal-carousel-1",
+                            "thumbName": "lineal-thumb-1"
+                        },
+                        "split king": {
+                            "name": "lineal-carousel-1",
+                            "thumbName": "lineal-thumb-1"
+                        },
+                        "cal king": {
+                            "name": "lineal-carousel-1",
+                            "thumbName": "lineal-thumb-1"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bases",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bases",
+                    "hasWebp": true,
+                    "imgAlt": "Woman sitting comfortably on lineal base."
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "lineal-carousel-2",
+                            "thumbName": "lineal-thumb-2"
+                        },
+                        "king": {
+                            "name": "lineal-carousel-2",
+                            "thumbName": "lineal-thumb-2"
+                        },
+                        "split king": {
+                            "name": "lineal-carousel-2",
+                            "thumbName": "lineal-thumb-2"
+                        },
+                        "cal king": {
+                            "name": "lineal-carousel-2",
+                            "thumbName": "lineal-thumb-2"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bases",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bases",
+                    "hasWebp": true,
+                    "imgAlt": "Pair of lineal bases with one flat and one adjusted"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "lineal-carousel-3-single",
+                            "thumbName": "lineal-thumb-3-single"
+                        },
+                        "king": {
+                            "name": "lineal-carousel-3-split",
+                            "thumbName": "lineal-thumb-3-split"
+                        },
+                        "split king": {
+                            "name": "lineal-carousel-3-split",
+                            "thumbName": "lineal-thumb-3-split"
+                        },
+                        "cal king": {
+                            "name": "lineal-carousel-3-split",
+                            "thumbName": "lineal-thumb-3-split"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bases",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bases",
+                    "hasWebp": true,
+                    "imgAlt": "Lineal Base image"
+                }
+            ]
+        },
+        "modal": {
+            "overview": [
+                {
+                    "isUpperFlex": true,
+                    "title": "Lineal Adjustable Base, Upper-Flex",
+                    "description": "Adjustable head positions on both sides of the bed mean infinite customization for couples. Feet move together so you still feel like you’re on one bed. The Lineal Adjustable Base, Upper-Flex is compatible with most open bed frames or can be used on its own. No box spring or foundation is needed.",
+                    "image": {
+                        "altText": "Lineal Adjustable Base, Upper-Flex",
+                        "extension": "png",
+                        "src" : {
+                            "name": "lineal-bare-flex",
+                            "folder": "bases"
+                        }
+                    }
+                },
+                {
+                    "isUpperFlex": false,
+                    "title": "Lineal Adjustable Base",
+                    "description": "Find your most comfortable position with our adjustable base. It gets you in the perfect angle for effortless sleep — or for reading, working, or just relaxing in bed.",
+                    "image": {
+                        "altText": "Lineal Adjustable Base, Upper-Flex",
+                        "extension": "png",
+                        "src" : {
+                            "name": "lineal-modal",
+                            "folder": "bases"
+                        }
+                    }
+                }
+            ],
+            "features": [
+                {
+                    "isUpperFlex": true,
+                    "title": "Zero-G",
+                    "description": "Feel weightless with perfectly balanced head and foot support. Just tap the preset setting.",
+                    "image": {
+                        "extension": "jpg",
+                        "altText": "Zero-G",
+                        "src" : {
+                            "name": "lineal-zerog",
+                            "folder": "bases"
+                        }
+                    }
+                },
+                {
+                    "isUpperFlex": true,
+                    "title": "Remote",
+                    "description": "Custom and preset settings for reading, working, watching TV, or getting restorative, pain-free sleep.",
+                    "image": {
+                        "extension": "jpg",
+                        "altText": "Remote",
+                        "src" : {
+                            "name": "lineal-remote",
+                            "folder": "bases"
+                        }
+                    }
+                },
+                {
+                    "isUpperFlex": true,
+                    "title": "Under-bed lights",
+                    "description": "Light your path to find your slippers and your way back to bed in the middle of the night with just a tap of the remote.",
+                    "image": {
+                        "extension": "jpg",
+                        "altText": "Under-bed lights",
+                        "src" : {
+                            "name": "lineal-illumination",
+                            "folder": "bases"
+                        }
+                    }
+                },
+                {
+                    "isUpperFlex": false,
+                    "title": "Wall-hugging*",
+                    "description": "As Lineal changes position, the space between the wall and your bed stays the same, keeping bedside tables within reach.",
+                    "disclaimer": "*does not apply to Upper-flex model",
+                    "image": {
+                        "extension": "jpg",
+                        "altText": "Wall-hugging",
+                        "src" : {
+                            "name": "lineal-wallhugging",
+                            "folder": "bases"
+                        }
+                    }
+                },
+                {
+                    "isUpperFlex": true,
+                    "title": "Massage",
+                    "description": "Unwind using the full-body wave, head, or leg massage settings in three speeds for three levels of \"aah\".",
+                    "image": {
+                        "extension": "jpg",
+                        "altText": "Massage",
+                        "src" : {
+                            "name": "lineal-massage",
+                            "folder": "bases"
+                        }
+                    }
+                },
+                {
+                    "isUpperFlex": true,
+                    "title": "Quiet motor",
+                    "description": "The quiet and discreet motor is housed away from sight in an interior sealed case to keep you peaceful and clutter-free.",
+                    "image": {
+                        "extension": "jpg",
+                        "altText": "Quiet motor",
+                        "src" : {
+                            "name": "lineal-whispermotor",
+                            "folder": "bases"
+                        }
+                    }
+                }
+            ]
+        },
+        "warrantyLength": "25-year"
+    },
+    "foundation": {
+        "productName": "Foundation",
+        "warrantyLength": "15-year",
+        "customTitle": true,
+        "category": "bases",
+        "pageTitle": "Mattress Foundation - Bed Foundation - Bed Bases | Saatva",
+        "pageDescription": "Make the most of your mattress with a mattress foundation that gives better support than a box spring. Handcrafted in the USA. FREE white glove delivery.",
+        "valueProductKeyword": "Foundation",
+        "sizes": [
+            {
+                "desc": "Twin",
+                "dimensions": "38\" x 75\""
+            },
+            {
+                "desc": "Twin XL",
+                "dimensions": "38\" x 80\""
+            },
+            {
+                "desc": "Full",
+                "dimensions": "54\" x 75\""
+            },
+            {
+                "desc": "Queen",
+                "dimensions": "60\" x 80\""
+            },
+            {
+                "desc": "King",
+                "dimensions": "76\" x 80\""
+            },
+            {
+                "desc": "Split King",
+                "dimensions": "76\" x 80\""
+            },
+            {
+                "desc": "Cal King",
+                "dimensions": "72\" x 84\""
+            }
+        ],
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "foundation-carousel-1",
+                            "thumbName": "foundation-carouselthumb-1"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bases",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bases",
+                    "imgAlt": "Saatva Foundation and Metal Frame",
+                    "width": "auto",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "foundation-carousel-2",
+                            "thumbName": "foundation-carouselthumb-2"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bases",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bases",
+                    "imgAlt": "Saatva Foundation, Mattress and Bed Frame",
+                    "width": "auto",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "foundation-carousel-3",
+                            "thumbName": "foundation-carouselthumb-3"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bases",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bases",
+                    "imgAlt": "Saatva Foundation, Mattress and Bed Frame",
+                    "width": "auto",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "foundation-carousel-4",
+                            "thumbName": "foundation-carouselthumb-4"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bases",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bases",
+                    "imgAlt": "Saatva Foundation Profile",
+                    "width": "auto",
+                    "hasWebp": true
+                }
+            ]
+        }
+    },
+    "9035": {
+        "productName": "Metal Frame",
+        "valueProductKeyword": "Metal Frame",
+        "category": "bases"
+    },
+    "saatva-hd": {
+        "productName": "Saatva HD",
+        "pageTitle": "Best Mattress for Heavy People - Saatva HD - Mattresses | Saatva",
+        "pageDescription": "The Saatva HD (heavy duty) Mattress is the best mattress for heavy people. 180-day trial + 20-year warranty, FREE white-glove delivery & mattress removal",
+        "productShortDescription": "Luxury comfort for the bigger body",
+        "warrantyLength": "20-year",
+        "warrantyLengthNum": "20",
+        "category": "mattresses",
+        "valueProductKeyword": "HD Mattress",
+        "options": {
+            "mattressSize": {
+                "display": "select"
+            }
+        },
+        "reviews": {
+            "customRating": 4.9,
+            "source": "magento"
+        },
+        "sizes": [
+            {
+                "desc": "Twin",
+                "dimensions": "38\" x 75\""
+            },
+            {
+                "desc": "Twin XL",
+                "dimensions": "38\" x 80\""
+            },
+            {
+                "desc": "Full",
+                "dimensions": "54\" x 75\""
+            },
+            {
+                "desc": "Queen",
+                "dimensions": "60\" x 80\""
+            },
+            {
+                "desc": "King",
+                "dimensions": "76\" x 80\""
+            },
+            {
+                "desc": "Split King",
+                "dimensions": "76\" x 80\""
+            },
+            {
+                "desc": "Cal King",
+                "dimensions": "72\" x 84\""
+            }
+        ],
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "hd-carousel-1",
+                            "thumbName": "hd-carouselthumb-1"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "imgAlt": "Saatva Luxury HD Mattress",
+                    "width": "auto",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "hd-carousel-5",
+                            "thumbName": "hd-carouselthumb-5"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "imgAlt": "Saatva Luxury HD Mattress with foundation",
+                    "width": "auto",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "hd-carousel-2",
+                            "thumbName": "hd-carouselthumb-2"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "imgAlt": "Saatva Luxury HD Mattress with frame",
+                    "width": "auto",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "hd-carousel-4",
+                            "thumbName": "hd-carouselthumb-4"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "imgAlt": "Saatva Luxury HD Mattress with frame",
+                    "width": "auto",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "hd-carousel-3",
+                            "thumbName": "hd-carouselthumb-3"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "imgAlt": "Saatva Luxury HD Mattress top view",
+                    "width": "auto",
+                    "hasWebp": true
+                }
+            ]
+        }
+    },
+    "saatva-youth": {
+        "productName": "Saatva Youth",
+        "productShortDescription": "Our versatile innerspring designed for growing kids",
+        "warrantyLength": "12-year",
+        "warrantyLengthNum": "12",
+        "category": "mattresses",
+        "pageTitle": "Best Mattress for Kids - Saatva Youth - Mattresses | Saatva",
+        "pageDescription": "The Saatva Youth mattress is the best mattress for kids. It's organic, hypoallergenic, and adapts as they grow. Try it for 180 nights with FREE delivery.",
+        "valueProductKeyword": "Youth Mattress",
+        "options": {
+            "mattressSize": {
+                "display": "select"
+            }
+        },
+        "sizes": [
+            {
+                "desc": "Twin",
+                "dimensions": "38\" x 75\""
+            },
+            {
+                "desc": "Twin XL",
+                "dimensions": "38\" x 80\""
+            },
+            {
+                "desc": "Full",
+                "dimensions": "54\" x 75\""
+            }
+        ],
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "youth-carousel-1",
+                            "thumbName": "youth-carouselthumb-1"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "imgAlt": "Saatva Youth Mattress",
+                    "width": "auto",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "youth-carousel-2",
+                            "thumbName": "youth-carouselthumb-2"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "imgAlt": "Saatva Youth Mattress",
+                    "width": "auto",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "youth-carousel-3",
+                            "thumbName": "youth-carouselthumb-3"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "imgAlt": "Saatva Youth Mattress",
+                    "width": "auto",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "youth-carousel-4",
+                            "thumbName": "youth-carouselthumb-4"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "imgAlt": "Saatva Youth Mattress",
+                    "width": "auto",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "youth-carousel-5",
+                            "thumbName": "youth-carouselthumb-5"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "imgAlt": "Saatva Youth Mattress",
+                    "width": "auto",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "youth-carousel-6",
+                            "thumbName": "youth-carouselthumb-6"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "imgAlt": "Saatva Youth Mattress",
+                    "width": "auto",
+                    "hasWebp": true
+                }
+            ]
+        }
+    },
+    "saatva-latex-hybrid": {
+        "productName": "Saatva Latex Hybrid",
+        "productShortDescription": "Our 100% natural Talalay latex",
+        "warrantyLength": "15-year",
+        "warrantyLengthNum": "15",
+        "category": "mattresses",
+        "imageStickerText": "Naturally Hypoallergenic",
+        "pageTitle": "Latex Hybrid Mattress - Saatva Latex Hybrid - Mattresses | Saatva",
+        "pageDescription": "Saatva Latex Hybrid Mattress is a 100% natural, hypoallergenic, organic mattress for better, healthier sleep.180-day home trial + FREE white glove delivery",
+        "feature": "ORGANIC, NATURAL & HYPOALLERGENIC",
+        "cardDescription": "Pressure-free support of natural latex + bouncy feel of an&nbsp;innerspring",
+        "options": {
+            "mattressSize": {
+                "display": "select"
+            }
+        },
+        "sizes": [
+            {
+                "desc": "Twin",
+                "dimensions": "38\" x 75\""
+            },
+            {
+                "desc": "Twin XL",
+                "dimensions": "38\" x 80\""
+            },
+            {
+                "desc": "Full",
+                "dimensions": "54\" x 75\""
+            },
+            {
+                "desc": "Queen",
+                "dimensions": "60\" x 80\""
+            },
+            {
+                "desc": "King",
+                "dimensions": "76\" x 80\""
+            },
+            {
+                "desc": "Split King",
+                "dimensions": "76\" x 80\""
+            },
+            {
+                "desc": "Cal King",
+                "dimensions": "72\" x 84\""
+            }
+        ],
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "latex-hybrid-carousel-2",
+                            "thumbName": "latex-hybrid-carouselthumb-2"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "hasWebp": false,
+                    "imgAlt": "Saatva Latex Hybrid mattress"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "latex-hybrid-carousel-1",
+                            "thumbName": "latex-hybrid-carouselthumb-1"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "hasWebp": false,
+                    "imgAlt": "Saatva Latex Hybrid mattress"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "latex-hybrid-carousel-3",
+                            "thumbName": "latex-hybrid-carouselthumb-3"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "hasWebp": false,
+                    "imgAlt": "Saatva Latex Hybrid mattress"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "latex-hybrid-carousel-4",
+                            "thumbName": "latex-hybrid-carouselthumb-4"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "hasWebp": false,
+                    "imgAlt": "Saatva Latex Hybrid mattress"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "latex-hybrid-carousel-5",
+                            "thumbName": "latex-hybrid-carouselthumb-5"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "hasWebp": false,
+                    "imgAlt": "Saatva Latex Hybrid mattress"
+                }
+            ]
+        }
+    },
+    "zenhaven": {
+        "productName": "Zenhaven",
+        "productShortDescription": "Our 100% natural Talalay latex",
+        "pageTitle": "Latex Mattress - Zenhaven Talalay Latex Mattress | Saatva",
+        "pageDescription": "Our 100% natural Zenhaven Talalay latex mattress delivers pure comfort. Try it for 180 days with FREE white glove delivery.",
+        "reviewsDescription":"See why customers everywhere love the pure, weightless comfort of Saatva Zenhaven 100% latex mattress, with 4.9 out of 5 stars.",
+        "warrantyLength": "20-year",
+        "warrantyLengthNum": "20",
+        "category": "mattresses",
+        "valueProductKeyword": "Zenhaven Mattress",
+        "options": {
+            "mattressSize": {
+                "display": "select"
+            }
+        },
+        "reviews": {
+            "customRating": 4.9,
+            "source": "elastic-search"
+        },
+        "sizes": [
+            {
+                "desc": "Twin",
+                "dimensions": "38\" x 75\""
+            },
+            {
+                "desc": "Twin XL",
+                "dimensions": "38\" x 80\""
+            },
+            {
+                "desc": "Full",
+                "dimensions": "54\" x 75\""
+            },
+            {
+                "desc": "Queen",
+                "dimensions": "60\" x 80\""
+            },
+            {
+                "desc": "King",
+                "dimensions": "76\" x 80\""
+            },
+            {
+                "desc": "Split King",
+                "dimensions": "76\" x 80\""
+            },
+            {
+                "desc": "Cal King",
+                "dimensions": "72\" x 84\""
+            }
+        ],
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "zen-carousel-1",
+                            "thumbName": "zen-carouselthumb-1"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "hasWebp": true,
+                    "imgAlt": "Zenhaven mattress"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "zen-carousel-5",
+                            "thumbName": "zen-carouselthumb-5"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "hasWebp": true,
+                    "imgAlt": "Zenhaven mattress"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "zen-carousel-2",
+                            "thumbName": "zen-carouselthumb-2"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "hasWebp": true,
+                    "imgAlt": "Zenhaven mattress"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "zen-carousel-6",
+                            "thumbName": "zen-carouselthumb-6"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "hasWebp": true,
+                    "imgAlt": "Zenhaven mattress"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "zen-carousel-3",
+                            "thumbName": "zen-carouselthumb-3"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "hasWebp": true,
+                    "imgAlt": "Zenhaven mattress"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "zen-carousel-4",
+                            "thumbName": "zen-carouselthumb-4"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "hasWebp": true,
+                    "imgAlt": "Zenhaven mattress"
+                }
+            ]
+        }
+    },
+    "loom-and-leaf": {
+        "productName": "Loom & Leaf",
+        "productShortDescription": "Our ultra-premium memory foam",
+        "warrantyLength": "15-year",
+        "warrantyLengthNum": "15",
+        "category": "mattresses",
+        "pageTitle": "Memory Foam Mattress - Loom & Leaf - Mattresses | Saatva",
+        "pageDescription": "The Loom & Leaf from Saatva is the best memory foam mattress for all sleep positions. Try it for 180 days with free contactless delivery.",
+        "reviewsDescription": "See why happy sleepers have rated the Saatva Loom & Leaf memory foam mattress an average of 4.9 out of 5 stars for comfort and great value.",
+        "valueProductKeyword": "Leaf Mattress",
+        "imageStickerText": "Best Luxury Memory Foam*",
+        "disclaimer": "* Awarded by SleepFoundation.org",
+        "feature": "Ultra-Premium Memory&nbsp;Foam",
+        "cardDescription": "Contouring support of memory foam + cooling&nbsp;comfort",
+        "options": {
+            "mattressSize": {
+                "display": "select"
+            }
+        },
+        "reviews": {
+            "customRating": 4.9,
+            "source": "elastic-search"
+        },
+        "sizes": [
+            {
+                "desc": "Twin",
+                "dimensions": "38\" x 75\""
+            },
+            {
+                "desc": "Twin XL",
+                "dimensions": "38\" x 80\""
+            },
+            {
+                "desc": "Full",
+                "dimensions": "54\" x 75\""
+            },
+            {
+                "desc": "Queen",
+                "dimensions": "60\" x 80\""
+            },
+            {
+                "desc": "King",
+                "dimensions": "76\" x 80\""
+            },
+            {
+                "desc": "Split King",
+                "dimensions": "76\" x 80\""
+            },
+            {
+                "desc": "Cal King",
+                "dimensions": "72\" x 84\""
+            }
+        ],
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "ll-carousel-1",
+                            "thumbName": "ll-carouselthumb-1"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "hasWebp": true,
+                    "imgAlt": "Loom & Leaf mattress"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "ll-carousel-2",
+                            "thumbName": "ll-carouselthumb-2"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "hasWebp": true,
+                    "imgAlt": "Loom & Leaf mattress"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "ll-carousel-3",
+                            "thumbName": "ll-carouselthumb-3"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "hasWebp": true,
+                    "imgAlt": "Loom & Leaf mattress"
+                }
+            ]
+        }
+    },
+    "saatva-classic": {
+        "productName": "Saatva Classic",
+        "productShortDescription": "Our flagship luxury hybrid innerspring",
+        "warrantyLength": "15-year",
+        "warrantyLengthNum": "15",
+        "pageTitle": "Innerspring Mattress - Saatva Classic - Mattresses | Saatva",
+        "pageDescription": "Saatva Classic is the best innerspring mattress value anywhere. Save over 40% off MSRP & get 180-day trial with free white glove delivery and setup.",
+        "reviewsDescription": "The reviews speak for themselves. See why happy sleepers gave the Saatva Classic innerspring mattress an average of 4.9 out of 5 stars.",
+        "category": "mattresses",
+        "valueProductKeyword": "Classic Mattress",
+        "imageStickerText": "Most popular",
+        "feature": "Hybrid Innerspring",
+        "cardDescription": "Responsive feel of an innerspring + cushioned comfort&nbsp;layers",
+        "options": {
+            "mattressSize": {
+                "display": "select"
+            }
+        },
+        "reviews": {
+            "customRating": 4.9,
+            "source": "elastic-search"
+        },
+        "sizes": [
+            {
+                "desc": "Twin",
+                "dimensions": "38\" x 75\""
+            },
+            {
+                "desc": "Twin XL",
+                "dimensions": "38\" x 80\""
+            },
+            {
+                "desc": "Full",
+                "dimensions": "54\" x 75\""
+            },
+            {
+                "desc": "Queen",
+                "dimensions": "60\" x 80\""
+            },
+            {
+                "desc": "King",
+                "dimensions": "76\" x 80\""
+            },
+            {
+                "desc": "Split King",
+                "dimensions": "76\" x 80\""
+            },
+            {
+                "desc": "Cal King",
+                "dimensions": "72\" x 84\""
+            }
+        ],
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "sm-carousel-1",
+                            "thumbName": "sm-carouselthumb-1"
+                        },
+                        "lineal": {
+                            "name": "sm-carousel-1b",
+                            "thumbName": "sm-carouselthumb-1b"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "imgAlt": "Saatva mattress classic.",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "sm-carousel-5",
+                            "thumbName": "sm-carouselthumb-5"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "imgAlt": "View from the side of a Saatva mattress.",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "sm-carousel-2",
+                            "thumbName": "sm-carouselthumb-2"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "imgAlt": "Close up of Saatva mattress.",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "sm-carousel-3",
+                            "thumbName": "sm-carouselthumb-3"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "imgAlt": "View from the side of a Saatva mattress.",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "sm-carousel-4",
+                            "thumbName": "sm-carouselthumb-4"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "imgAlt": "View from the side of a Saatva mattress.",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "sm-carousel-6",
+                            "thumbName": "sm-carouselthumb-6"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "imgAlt": "View from the side of a Saatva mattress.",
+                    "hasWebp": true
+                }
+            ]
+        }
+    },
+    "solaire": {
+        "productName": "Solaire",
+        "productShortDescription": "Precision performance & luxury comfort",
+        "warrantyLength": "25-year",
+        "warrantyLengthNum": "25",
+        "category": "mattresses",
+        "valueProductKeyword": "Solaire Mattress",
+        "imageStickerText": "Featured in Consumer Reports*",
+        "disclaimer": "* <a target='_blank' href='http://reprints.theygsgroup.com/cr/reprints/C106872_Saatva.pdf'>Consumer Reports does not endorse products and services.</a>",
+        "pageTitle": "Adjustable Mattress - Solaire by Saatva - Mattresses | Saatva",
+        "pageDescription": "Personalize your sleep comfort with the ultra-precise Solaire adjustable mattress from Saatva.180-night home trial and FREE white glove delivery included.",
+        "reviewsDescription": "See why satisfied sleepers love the Saatva Solaire adjustable mattress with an average rating of 4.9 out of 5 stars!",
+        "options": {
+            "mattressSize": {
+                "display": "select"
+            }
+        },
+        "reviews": {
+            "customRating": 4.9,
+            "source": "magento"
+        },
+        "sizes": [
+            {
+                "desc": "Twin XL",
+                "dimensions": "38\" x 80\""
+            },
+            {
+                "desc": "Full",
+                "dimensions": "54\" x 75\""
+            },
+            {
+                "desc": "Queen",
+                "dimensions": "60\" x 80\""
+            },
+            {
+                "desc": "King",
+                "dimensions": "76\" x 80\""
+            },
+            {
+                "desc": "Cal King",
+                "dimensions": "72\" x 84\""
+            }
+        ],
+        "tour": [
+            {
+                "title": "Organic Cotton Pillow Top",
+                "description": "Adds a layer of cushioning for the ultimate in comfort and support. Wrapped in a breathable organic cotton cover and finished with organic gold damask trim.",
+                "videos": [
+                    {
+                        "url": "https://s3.amazonaws.com/saatva.com/videos/tour_1_pillowtop.webm",
+                        "type": "video/webm"
+                    },
+                    {
+                        "url": "https://s3.amazonaws.com/saatva.com/videos/tour_1_pillowtop.mp4",
+                        "type": "video/mp4"
+                    }
+                ]
+            },
+            {
+                "title": "5-Zone Talalay Latex",
+                "description": "Feels buoyant and responsive. Denser 100% natural Talalay latex in the center third of the mattress forms our 5-zone back support for maximum pressure-point relief. Naturally hypoallergenic.",
+                "videos": [
+                    {
+                        "url": "https://s3.amazonaws.com/saatva.com/videos/tour_2_latex.webm",
+                        "type": "video/webm"
+                    },
+                    {
+                        "url": "https://s3.amazonaws.com/saatva.com/videos/tour_2_latex.mp4",
+                        "type": "video/mp4"
+                    }
+                ]
+            },
+            {
+                "title": "Gel-Infused Memory Foam",
+                "description": "Contours to your body and provides spinal support while also keeping you cool. The CertiPUR-US\u00ae label means it’s free of harmful chemicals.",
+                "videos": [
+                    {
+                        "url": "https://s3.amazonaws.com/saatva.com/videos/tour_3_foam.webm",
+                        "type": "video/webm"
+                    },
+                    {
+                        "url": "https://s3.amazonaws.com/saatva.com/videos/tour_3_foam.mp4",
+                        "type": "video/mp4"
+                    }
+                ]
+            },
+            {
+                "title": "Moisture Barrier Layers",
+                "description": "Protects internal components to prevent bacteria growth. This ensures a healthier sleep environment and a mattress that will last for years to come.",
+                "videos": [
+                    {
+                        "url": "https://s3.amazonaws.com/saatva.com/videos/tour_4_moisture.webm",
+                        "type": "video/webm"
+                    },
+                    {
+                        "url": "https://s3.amazonaws.com/saatva.com/videos/tour_4_moisture.mp4",
+                        "type": "video/mp4"
+                    }
+                ]
+            },
+            {
+                "title": "Vulcanized Air Chambers",
+                "description": "Multi-directional box baffle design evenly supports your body from head to toe and edge to edge, regardless of firmness level. Experience consistent comfort at every point.",
+                "videos": [
+                    {
+                        "url": "https://s3.amazonaws.com/saatva.com/videos/tour_5_airchambers.webm",
+                        "type": "video/webm"
+                    },
+                    {
+                        "url": "https://s3.amazonaws.com/saatva.com/videos/tour_5_airchambers.mp4",
+                        "type": "video/mp4"
+                    }
+                ]
+            },
+            {
+                "title": "Power Edge Enclosure",
+                "description": "Reinforces support around perimeter. In-rail air inflator operates quietly and invisibly, so you never have to worry about hiding pumps or hoses.",
+                "videos": [
+                    {
+                        "url": "https://s3.amazonaws.com/saatva.com/videos/tour_6_poweredge.webm",
+                        "type": "video/webm"
+                    },
+                    {
+                        "url": "https://s3.amazonaws.com/saatva.com/videos/tour_6_poweredge.mp4",
+                        "type": "video/mp4"
+                    }
+                ]
+            }
+        ],
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "solaire-carousel-1",
+                            "thumbName": "solaire-carouselthumb-1"
+                        },
+                        "upperflex": {
+                            "name": "solaire-carousel-1b",
+                            "thumbName": "solaire-carouselthumb-1b"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "imgAlt": "Solaire Mattress.",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "solaire-carousel-2",
+                            "thumbName": "solaire-carouselthumb-2"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "imgAlt": "View from the side of a Solaire mattress.",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "solaire-carousel-3",
+                            "thumbName": "solaire-carouselthumb-3"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "imgAlt": "Close up of the a Solaire mattress.",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "solaire-carousel-4",
+                            "thumbName": "solaire-carouselthumb-4"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "imgAlt": "Overhead view a Solaire mattress.",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "solaire-carousel-5",
+                            "thumbName": "solaire-carouselthumb-5"
+                        },
+                        "upperflex": {
+                            "name": "solaire-carousel-5b",
+                            "thumbName": "solaire-carouselthumb-5b"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/mattresses",
+                    "thumbFolder": "hero-carousels-wide-thumbs/mattresses",
+                    "imgAlt": "Solaire Mattress.",
+                    "hasWebp": true
+                }
+            ]
+        }
+    },
+    "organic-mattress-pad": {
+        "productName": "Organic Mattress Pad",
+        "pageTitle": "Organic Mattress Pad - Mattress Cover - Bedding | Saatva",
+        "pageDescription": "Protect your mattress and enjoy cooler sleep with our breathable organic mattress pad. Free shipping and 45-day return.",
+        "warrantyLength": "1-year limited",
+        "category": "bedding",
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "pad-c1",
+                            "thumbName": "carouselthumb-pad-1"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "imgAlt": "View from the side of a Saatva mattress pad on a Saatva mattress.",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "pad-c2",
+                            "thumbName": "carouselthumb-pad-2"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "imgAlt": "View from the top of a Saatva mattress pad on a Saatva mattress.",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "pad-c3",
+                            "thumbName": "carouselthumb-pad-3"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "imgAlt": "A Saatva mattress pad folded up on a Saatva mattress.",
+                    "hasWebp": true
+                }
+            ]
+        }
+    },
+    "mattress-topper": {
+        "productName": "Saatva Mattress Toppers",
+        "warrantyLength": "1-year limited",
+        "category": "bedding",
+        "pageTitle": "Mattress Topper - Latex Mattress Topper - Bedding | Saatva",
+        "pageDescription": "Enjoy an extra layer of comfort with our mattress toppers. 3 types to choose from to deliver your ideal sleep upgrade. Free shipping + 45-day returns.",
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "topper-graphite-c1",
+                            "thumbName": "topper-graphite-thumb-1"
+                        },
+                        "graphite": {
+                            "name": "topper-graphite-c1",
+                            "thumbName": "topper-graphite-thumb-1"
+                        },
+                        "latex": {
+                            "name": "topper-latex-c1",
+                            "thumbName": "topper-latex-thumb-1"
+                        },
+                        "foam": {
+                            "name": "topper-latex-c1",
+                            "thumbName": "topper-latex-thumb-1"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "hasWebp": true,
+                    "imgAlt": ""
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "topper-graphite-c2",
+                            "thumbName": "topper-graphite-thumb-2"
+                        },
+                        "graphite": {
+                            "name": "topper-graphite-c2",
+                            "thumbName": "topper-graphite-thumb-2"
+                        },
+                        "latex": "none",
+                        "foam": "none"
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "hasWebp": true,
+                    "imgAlt": ""
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "topper-graphite-c3",
+                            "thumbName": "topper-graphite-thumb-3"
+                        },
+                        "graphite": {
+                            "name": "topper-graphite-c3",
+                            "thumbName": "topper-graphite-thumb-3"
+                        },
+                        "latex": {
+                            "name": "topper-latex-c3",
+                            "thumbName": "topper-latex-thumb-3"
+                        },
+                        "foam": {
+                            "name": "topper-latex-c3",
+                            "thumbName": "topper-latex-thumb-3"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "hasWebp": true,
+                    "imgAlt": ""
+                }
+            ],
+            "material_carousel": [
+                {
+                    "sources": {
+                        "default": {
+                            "mobile": "/static/assets/images/bedding/m-graphite-detail",
+                            "desktop": "/static/assets/images/bedding/d-graphite-detail"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "hasWebp": true,
+                    "imgAlt": "Image of the mattress topper in graphite material"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "mobile": "/static/assets/images/bedding/m-latex-detail",
+                            "desktop": "/static/assets/images/bedding/d-latex-detail"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "hasWebp": true,
+                    "imgAlt": "Image of the mattress topper in latex material"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "mobile": "/static/assets/images/bedding/m-foam-detail",
+                            "desktop": "/static/assets/images/bedding/d-foam-detail"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "hasWebp": true,
+                    "imgAlt": "Image of the mattress topper in high-density foam material"
+                }
+            ]
+        }
+    },
+    "waterproof-mattress-protector": {
+        "productName": "Waterproof Mattress Protector",
+        "warrantyLength": "1-year limited",
+        "category": "bedding",
+        "pageTitle": "Waterproof Mattress Protector | Saatva",
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "waterproof-mattress-protector-carousel-1",
+                            "thumbName": "waterproof-mattress-protector-carousel-thumb-1"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "hasWebp": false,
+                    "imgAlt": ""
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "waterproof-mattress-protector-carousel-2",
+                            "thumbName": "waterproof-mattress-protector-carousel-thumb-2"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "hasWebp": false,
+                    "imgAlt": ""
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "waterproof-mattress-protector-carousel-3",
+                            "thumbName": "waterproof-mattress-protector-carousel-thumb-3"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "hasWebp": false,
+                    "imgAlt": ""
+                }
+            ]
+        },
+        "applyDoNotIndex": true
+    },
+    "the-saatva-pillow": {
+        "productName": "The Saatva Pillow",
+        "warrantyLength": "1-year limited",
+        "category": "bedding",
+        "pageTitle": "Latex Pillow - Talalay Latex Pillow - Bedding | Saatva",
+        "pageDescription": "Hotel-quality latex pillow with superior neck and spine support. Drift into deep comfort with this cooling pillow. Free shipping & 45-day returns.",
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "pillow-carousel-1",
+                            "thumbName": "pillow-carousel-thumb-1"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "imgAlt": "Woman lying comfortably on Saatva pillow.",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "pillow-carousel-2",
+                            "thumbName": "pillow-carousel-thumb-2"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "imgAlt": "",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "pillow-carousel-3",
+                            "thumbName": "pillow-carousel-thumb-3"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "imgAlt": "",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "pillow-carousel-4",
+                            "thumbName": "pillow-carousel-thumb-4"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "imgAlt": "",
+                    "hasWebp": true
+                }
+            ]
+        }
+    },
+    "down-alternative-pillow": {
+        "productName": "Down Alternative Pillow",
+        "warrantyLength": "1-year limited",
+        "pageDescription": "Sleep on a cloud of comfort with light, airy, hypoallergenic down alternative pillows covered in organic cotton. Try it for 45 days with free shipping.",
+        "category": "bedding",
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "down-alt-pillow-carousel-1",
+                            "thumbName": "down-alt-pillow-carousel-thumb-1"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "hasWebp": true,
+                    "imgAlt": "Plush, lightweight, long-lasting fiber fill."
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "down-alt-pillow-carousel-2",
+                            "thumbName": "down-alt-pillow-carousel-thumb-2"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "hasWebp": true,
+                    "imgAlt": ""
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "down-alt-pillow-carousel-3",
+                            "thumbName": "down-alt-pillow-carousel-thumb-3"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "hasWebp": true,
+                    "imgAlt": ""
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "down-alt-pillow-carousel-4",
+                            "thumbName": "down-alt-pillow-carousel-thumb-4"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "hasWebp": true,
+                    "imgAlt": ""
+                }
+            ]
+        }
+    },
+    "memory-foam-pillow": {
+        "productName": "Memory Foam Pillow",
+        "pageTitle": "Memory Foam Pillow - Cooling Pillow - Bedding | Saatva",
+        "pageDescription": "Sleep cooler and more soundly with our graphite-infused gel memory foam pillow that draws heat away. Try it for 45 days with free shipping.",
+        "warrantyLength": "1-year limited",
+        "category": "bedding",
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "memory-foam-pillow-carousel-1",
+                            "thumbName": "memory-foam-pillow-carousel-thumb-1"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "hasWebp": true,
+                    "imgAlt": "Woman lying comfortably on Saatva pillow."
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "memory-foam-pillow-carousel-2",
+                            "thumbName": "memory-foam-pillow-carousel-thumb-2"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "hasWebp": true,
+                    "imgAlt": ""
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "memory-foam-pillow-carousel-3",
+                            "thumbName": "memory-foam-pillow-carousel-thumb-3"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "hasWebp": true,
+                    "imgAlt": ""
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "memory-foam-pillow-carousel-4",
+                            "thumbName": "memory-foam-pillow-carousel-thumb-4"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "hasWebp": true,
+                    "imgAlt": ""
+                }
+            ]
+        }
+    },
+    "organic-cotton-sheets": {
+        "productName": "Organic Sateen Sheet Set",
+        "pageTitle": "Organic Cotton Sheets - Twin, Queen, King Organic Sheets - Bedding | Saatva",
+        "pageDescription": "Enjoy blissful sleep in silky-soft sateen organic cotton sheets. Available in Twin to upper-flex King sizes. Try it for 45 days with free shipping.",
+        "warrantyLength": "1-year limited",
+        "category": "bedding",
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "sheets-white-c1",
+                            "thumbName": "carouselthumb-sheets-w1"
+                        },
+                        "white": {
+                            "name": "sheets-white-c1",
+                            "thumbName": "carouselthumb-sheets-w1"
+                        },
+                        "ivory": {
+                            "name": "sheets-ivory-c1",
+                            "thumbName": "carouselthumb-sheets-i1"
+                        },
+                        "grey": {
+                            "name": "sheets-grey-c1",
+                            "thumbName": "carouselthumb-sheets-g1"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "imgAlt": "Woman lying comfortably in Saatva sheets.",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "sheets-white-c2",
+                            "thumbName": "carouselthumb-sheets-w2"
+                        },
+                        "white": {
+                            "name": "sheets-white-c2",
+                            "thumbName": "carouselthumb-sheets-w2"
+                        },
+                        "ivory": {
+                            "name": "sheets-ivory-c2",
+                            "thumbName": "carouselthumb-sheets-i2"
+                        },
+                        "grey": {
+                            "name": "sheets-grey-c2",
+                            "thumbName": "carouselthumb-sheets-g2"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "imgAlt": "Saatva sheets and pillows on a bed.",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "sheets-c3",
+                            "thumbName": "carouselthumb-sheets-3"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "imgAlt": "Saatva sheets",
+                    "hasWebp": true
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "sheets-c4",
+                            "thumbName": "carouselthumb-sheets-4"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "imgAlt": "All three colors of Saatva sheets.",
+                    "hasWebp": true
+                }
+            ],
+            "bundleSlider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "sheet-latex-pillow-bundle",
+                            "thumbName": "carousel_thumbnail-sheet-latex-pillow-bundle"
+                        },
+                        "sateen-sheets-memory-foam-pillow": {
+                            "name": "sheet-memory-pillow-bundle",
+                            "thumbName": "carousel_thumbnail-sheet-memory-pillow-bundle"
+                        },
+                        "sateen-sheets-latex-pillow": {
+                            "name": "sheet-latex-pillow-bundle",
+                            "thumbName": "carousel_thumbnail-sheet-latex-pillow-bundle"
+                        },
+                        "sateen-sheets-latex-pillow-pad": {
+                            "name": "sheet-pillow-pad-bundle",
+                            "thumbName": "carousel_thumbnail-sheet-pillow-pad-bundle"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding/bundles",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding-bundle",
+                    "imgAlt": "Stacked bedding products",
+                    "hasWebp": false
+                }
+            ]
+        },
+        "reviews": {
+            "customRating": 4.8
+        }
+    },
+    "organic-percale-sheet-set": {
+        "productName": "Organic Percale Sheet Set",
+        "warrantyLength": "1-year limited",
+        "category": "bedding",
+        "pageTitle": "Organic Percale Sheet Set: Twin, TwinXL, Full, Queen, King, Cal King, Split King| Saatva",
+        "pageDescription": "Sleep cooler with our crisp organic percale sheets made from the world's best cotton. FREE shipping and 45-day returns.",
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "organic-percale-sheet-carousel-1-white",
+                            "thumbName": "organic-percale-sheet-carousel-thumb-1-white"
+                        },
+                        "white": {
+                            "name": "organic-percale-sheet-carousel-1-white",
+                            "thumbName": "organic-percale-sheet-carousel-thumb-1-white"
+                        },
+                        "ivory": {
+                            "name": "organic-percale-sheet-carousel-1-ivory",
+                            "thumbName": "organic-percale-sheet-carousel-thumb-1-ivory"
+                        },
+                        "grey": {
+                            "name": "organic-percale-sheet-carousel-1-grey",
+                            "thumbName": "organic-percale-sheet-carousel-thumb-1-grey"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "imgAlt": "Saatva Organic Percale Sheets"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "organic-percale-sheet-carousel-2-white",
+                            "thumbName": "organic-percale-sheet-carousel-thumb-2-white"
+                        },
+                        "white": {
+                            "name": "organic-percale-sheet-carousel-2-white",
+                            "thumbName": "organic-percale-sheet-carousel-thumb-2-white"
+                        },
+                        "ivory": {
+                            "name": "organic-percale-sheet-carousel-2-ivory",
+                            "thumbName": "organic-percale-sheet-carousel-thumb-2-ivory"
+                        },
+                        "grey": {
+                            "name": "organic-percale-sheet-carousel-2-grey",
+                            "thumbName": "organic-percale-sheet-carousel-thumb-2-grey"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "imgAlt": "Saatva Organic Percale Sheets"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "organic-percale-sheet-carousel-3-white",
+                            "thumbName": "organic-percale-sheet-carousel-thumb-3-white"
+                        },
+                        "white": {
+                            "name": "organic-percale-sheet-carousel-3-white",
+                            "thumbName": "organic-percale-sheet-carousel-thumb-3-white"
+                        },
+                        "ivory": {
+                            "name": "organic-percale-sheet-carousel-3-ivory",
+                            "thumbName": "organic-percale-sheet-carousel-thumb-3-ivory"
+                        },
+                        "grey": {
+                            "name": "organic-percale-sheet-carousel-3-grey",
+                            "thumbName": "organic-percale-sheet-carousel-thumb-3-grey"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "imgAlt": "Saatva Organic Percale Sheets"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "organic-percale-sheet-carousel",
+                            "thumbName": "organic-percale-sheet-carousel-thumb"
+                        },
+                        "white": {
+                            "name": "organic-percale-sheet-carousel",
+                            "thumbName": "organic-percale-sheet-carousel-thumb"
+                        },
+                        "ivory": {
+                            "name": "organic-percale-sheet-carousel",
+                            "thumbName": "organic-percale-sheet-carousel-thumb"
+                        },
+                        "grey": {
+                            "name": "organic-percale-sheet-carousel",
+                            "thumbName": "organic-percale-sheet-carousel-thumb"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "imgAlt": "Saatva Organic Percale Sheets"
+                }
+            ]
+        }
+    },
+    "linen-sheet-set": {
+        "productName": "Linen Sheet Set",
+        "warrantyLength": "1-year limited",
+        "category": "bedding",
+        "pageTitle": "Linen Sheets - Twin, Queen, King Linen Sheet Set - Bedding | Saatva",
+        "pageDescription": "Fair trade, all-natural Belgian linen sheets stay cool in the summer yet warm in the winter. In twin to Cal-king. FREE shipping included.",
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "linen-sheets-1",
+                            "thumbName": "carouselthumb-linen-sheets-1"
+                        },
+                        "white": {
+                            "name": "linen-sheets-1",
+                            "thumbName": "carouselthumb-linen-sheets-1"
+                        },
+                        "ivory": {
+                            "name": "linen-sheets-1",
+                            "thumbName": "carouselthumb-linen-sheets-1"
+                        },
+                        "grey": {
+                            "name": "linen-sheets-1",
+                            "thumbName": "carouselthumb-linen-sheets-1"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "imgAlt": "Bed with Saatva sheets."
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "PDP_carousel_linen_detail_white",
+                            "thumbName": "carouselthumb-linen-sheets-w"
+                        },
+                        "white": {
+                            "name": "PDP_carousel_linen_detail_white",
+                            "thumbName": "carouselthumb-linen-sheets-w"
+                        },
+                        "ivory": {
+                            "name": "PDP_carousel_linen_detail_ivory",
+                            "thumbName": "carouselthumb-linen-sheets-i"
+                        },
+                        "grey": {
+                            "name": "carousel-linen-sheets-g",
+                            "thumbName": "carouselthumb-linen-sheets-g"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "imgAlt": "Saatva Linen Sheets"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "PDP_carousel_linen_stack_white",
+                            "thumbName": "carouselthumb-linen-stack-w"
+                        },
+                        "white": {
+                            "name": "PDP_carousel_linen_stack_white",
+                            "thumbName": "carouselthumb-linen-stack-w"
+                        },
+                        "ivory": {
+                            "name": "PDP_carousel_linen_stack_ivory",
+                            "thumbName": "carouselthumb-linen-stack-i"
+                        },
+                        "grey": {
+                            "name": "PDP_carousel_linen_stack_grey",
+                            "thumbName": "carouselthumb-linen-stack-g"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "imgAlt": "Saatva Linen Sheets"
+                }
+            ]
+        }
+    },
+    "amalfi": {
+        "productName": "Amalfi",
+        "category": "bed-frames",
+        "warrantyLength": "Lifetime",
+        "pageTitle": "Amalfi Bed Frame | Saatva",
+        "valueProductKeyword": "Amalfi",
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Amalfi-VelvetTaupe-Angle",
+                            "thumbName": "thumb-Amalfi-VelvetTaupe-Angle"
+                        },
+                        "Natural Linen": {
+                            "name": "Amalfi-LinenNatural-Angle",
+                            "thumbName": "thumb-Amalfi-LinenNatural-Angle"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Amalfi-VelvetGraphite-Angle",
+                            "thumbName": "thumb-Amalfi-VelvetGraphite-Angle"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Amalfi-VelvetTaupe-Angle",
+                            "thumbName": "thumb-Amalfi-VelvetTaupe-Angle"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": true,
+                    "imgAlt": "Amalfi Bed Frame"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Amalfi-VelvetTaupe-Front",
+                            "thumbName": "thumb-Amalfi-VelvetTaupe-Front"
+                        },
+                        "Natural Linen": {
+                            "name": "Amalfi-LinenNatural-Front",
+                            "thumbName": "thumb-Amalfi-LinenNatural-Front"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Amalfi-VelvetGraphite-Front",
+                            "thumbName": "thumb-Amalfi-VelvetGraphite-Front"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Amalfi-VelvetTaupe-Front",
+                            "thumbName": "thumb-Amalfi-VelvetTaupe-Front"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": true,
+                    "imgAlt": "Amalfi Bed Frame"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Amalfi-VelvetTaupe-Profile",
+                            "thumbName": "thumb-Amalfi-VelvetTaupe-Profile"
+                        },
+                        "Natural Linen": {
+                            "name": "Amalfi-LinenNatural-Profile",
+                            "thumbName": "thumb-Amalfi-LinenNatural-Profile"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Amalfi-VelvetGraphite-Profile",
+                            "thumbName": "thumb-Amalfi-VelvetGraphite-Profile"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Amalfi-VelvetTaupe-Profile",
+                            "thumbName": "thumb-Amalfi-VelvetTaupe-Profile"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": true,
+                    "imgAlt": "Amalfi Bed Frame"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Amalfi-LinenNatural-LS",
+                            "thumbName": "thumb-Amalfi-LinenNatural-LS"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "imgAlt": "Amalfi Bed Frame"
+                }
+            ]
+        }
+    },
+    "marbella": {
+        "productName": "Marbella",
+        "category": "bed-frames",
+        "warrantyLength": "Lifetime",
+        "pageTitle": "Marbella Bed Frame | Saatva",
+        "valueProductKeyword": "Marbella",
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Marbella-VelvetTaupe-Angle",
+                            "thumbName": "thumb-Marbella-VelvetTaupe-Angle"
+                        },
+                        "Natural Linen": {
+                            "name": "Marbella-LinenNatural-Angle",
+                            "thumbName": "thumb-Marbella-LinenNatural-Angle"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Marbella-VelvetGraphite-Angle",
+                            "thumbName": "thumb-Marbella-VelvetGraphite-Angle"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Marbella-VelvetTaupe-Angle",
+                            "thumbName": "thumb-Marbella-VelvetTaupe-Angle"
+                        },
+                        "Natural Linen Wings": {
+                            "name": "MarbellaWinged-LinenNatural-Angle",
+                            "thumbName": "thumb-MarbellaWinged-LinenNatural-Angle"
+                        },
+                        "Graphite Vintage Velvet Wings": {
+                            "name": "MarbellaWinged-VelvetGraphite-Angle",
+                            "thumbName": "thumb-MarbellaWinged-VelvetGraphite-Angle"
+                        },
+                        "Taupe Vintage Velvet Wings": {
+                            "name": "MarbellaWinged-VelvetTaupe-Angle",
+                            "thumbName": "thumb-MarbellaWinged-VelvetTaupe-Angle"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": true,
+                    "imgAlt": "Marbella Bed Frame"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Marbella-VelvetTaupe-Front",
+                            "thumbName": "thumb-Marbella-VelvetTaupe-Front"
+                        },
+                        "Natural Linen": {
+                            "name": "Marbella-LinenNatural-Front",
+                            "thumbName": "thumb-Marbella-LinenNatural-Front"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Marbella-VelvetGraphite-Front",
+                            "thumbName": "thumb-Marbella-VelvetGraphite-Front"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Marbella-VelvetTaupe-Front",
+                            "thumbName": "thumb-Marbella-VelvetTaupe-Front"
+                        },
+                        "Natural Linen Wings": {
+                            "name": "MarbellaWinged-LinenNatural-Front",
+                            "thumbName": "thumb-MarbellaWinged-LinenNatural-Front"
+                        },
+                        "Graphite Vintage Velvet Wings": {
+                            "name": "MarbellaWinged-VelvetGraphite-Front",
+                            "thumbName": "thumb-MarbellaWinged-VelvetGraphite-Front"
+                        },
+                        "Taupe Vintage Velvet Wings": {
+                            "name": "MarbellaWinged-VelvetTaupe-Front",
+                            "thumbName": "thumb-MarbellaWinged-VelvetTaupe-Front"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": true,
+                    "imgAlt": "Marbella Bed Frame"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Marbella-VelvetTaupe-Profile",
+                            "thumbName": "thumb-Marbella-VelvetTaupe-Profile"
+                        },
+                        "Natural Linen": {
+                            "name": "Marbella-LinenNatural-Profile",
+                            "thumbName": "thumb-Marbella-LinenNatural-Profile"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Marbella-VelvetGraphite-Profile",
+                            "thumbName": "thumb-Marbella-VelvetGraphite-Profile"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Marbella-VelvetTaupe-Profile",
+                            "thumbName": "thumb-Marbella-VelvetTaupe-Profile"
+                        },
+                        "Natural Linen Wings": {
+                            "name": "MarbellaWinged-LinenNatural-Profile",
+                            "thumbName": "thumb-MarbellaWinged-LinenNatural-Profile"
+                        },
+                        "Graphite Vintage Velvet Wings": {
+                            "name": "MarbellaWinged-VelvetGraphite-Profile",
+                            "thumbName": "thumb-MarbellaWinged-VelvetGraphite-Profile"
+                        },
+                        "Taupe Vintage Velvet Wings": {
+                            "name": "MarbellaWinged-VelvetTaupe-Profile",
+                            "thumbName": "thumb-MarbellaWinged-VelvetTaupe-Profile"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": true,
+                    "imgAlt": "Marbella Bed Frame"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Marbella-LinenNatural-LS",
+                            "thumbName": "thumb-Marbella-LinenNatural-LS"
+                        },
+                        "Natural Linen Wings": {
+                            "name": "MarbellaWinged-VelvetGraphite-LS",
+                            "thumbName": "thumb-MarbellaWinged-VelvetGraphite-LS"
+                        },
+                        "Graphite Vintage Velvet Wings": {
+                            "name": "MarbellaWinged-VelvetGraphite-LS",
+                            "thumbName": "thumb-MarbellaWinged-VelvetGraphite-LS"
+                        },
+                        "Taupe Vintage Velvet Wings": {
+                            "name": "MarbellaWinged-VelvetGraphite-LS",
+                            "thumbName": "thumb-MarbellaWinged-VelvetGraphite-LS"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "imgAlt": "Marbella Bed Frame"
+                }
+            ]
+        }
+    },
+    "oslo": {
+        "productName": "Oslo",
+        "category": "bed-frames",
+        "warrantyLength": "Lifetime",
+        "pageTitle": "Oslo Bed Frame | Saatva",
+        "valueProductKeyword": "Oslo",
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Oslo-VelvetTaupe-Angle",
+                            "thumbName": "thumb-Oslo-VelvetTaupe-Angle"
+                        },
+                        "Natural Linen": {
+                            "name": "Oslo-LinenNatural-Angle",
+                            "thumbName": "thumb-Oslo-LinenNatural-Angle"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Oslo-VelvetGraphite-Angle",
+                            "thumbName": "thumb-Oslo-VelvetGraphite-Angle"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Oslo-VelvetTaupe-Angle",
+                            "thumbName": "thumb-Oslo-VelvetTaupe-Angle"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": true,
+                    "imgAlt": "Oslo Bed Frame"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Oslo-VelvetTaupe-Front",
+                            "thumbName": "thumb-Oslo-VelvetTaupe-Front"
+                        },
+                        "Natural Linen": {
+                            "name": "Oslo-LinenNatural-Front",
+                            "thumbName": "thumb-Oslo-LinenNatural-Front"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Oslo-VelvetGraphite-Front",
+                            "thumbName": "thumb-Oslo-VelvetGraphite-Front"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Oslo-VelvetTaupe-Front",
+                            "thumbName": "thumb-Oslo-VelvetTaupe-Front"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": true,
+                    "imgAlt": "Oslo Bed Frame"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Oslo-VelvetTaupe-Profile",
+                            "thumbName": "thumb-Oslo-VelvetTaupe-Profile"
+                        },
+                        "Natural Linen": {
+                            "name": "Oslo-LinenNatural-Profile",
+                            "thumbName": "thumb-Oslo-LinenNatural-Profile"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Oslo-VelvetGraphite-Profile",
+                            "thumbName": "thumb-Oslo-VelvetGraphite-Profile"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Oslo-VelvetTaupe-Profile",
+                            "thumbName": "thumb-Oslo-VelvetTaupe-Profile"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": true,
+                    "imgAlt": "Oslo Bed Frame"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Oslo-LinenNatural-LS",
+                            "thumbName": "thumb-Oslo-LinenNatural-LS"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "imgAlt": "Oslo Bed Frame"
+                }
+            ]
+        }
+    },
+    "marseille": {
+        "productName": "Marseille",
+        "category": "bed-frames",
+        "warrantyLength": "Lifetime",
+        "pageTitle": "Marseille Bed Frame | Saatva",
+        "valueProductKeyword": "Marseille",
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Marseille-VelvetTaupe-Angle",
+                            "thumbName": "thumb-Marseille-VelvetTaupe-Angle"
+                        },
+                        "Natural Linen": {
+                            "name": "Marseille-LinenNatural-Angle",
+                            "thumbName": "thumb-Marseille-LinenNatural-Angle"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Marseille-VelvetGraphite-Angle",
+                            "thumbName": "thumb-Marseille-VelvetGraphite-Angle"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Marseille-VelvetTaupe-Angle",
+                            "thumbName": "thumb-Marseille-VelvetTaupe-Angle"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": true,
+                    "imgAlt": "Marseille Bed Frame"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Marseille-VelvetTaupe-Front",
+                            "thumbName": "thumb-Marseille-VelvetTaupe-Front"
+                        },
+                        "Natural Linen": {
+                            "name": "Marseille-LinenNatural-Front",
+                            "thumbName": "thumb-Marseille-LinenNatural-Front"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Marseille-VelvetGraphite-Front",
+                            "thumbName": "thumb-Marseille-VelvetGraphite-Front"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Marseille-VelvetTaupe-Front",
+                            "thumbName": "thumb-Marseille-VelvetTaupe-Front"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": true,
+                    "imgAlt": "Marseille Bed Frame"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Marseille-VelvetTaupe-Profile",
+                            "thumbName": "thumb-Marseille-VelvetTaupe-Profile"
+                        },
+                        "Natural Linen": {
+                            "name": "Marseille-LinenNatural-Profile",
+                            "thumbName": "thumb-Marseille-LinenNatural-Profile"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Marseille-VelvetGraphite-Profile",
+                            "thumbName": "thumb-Marseille-VelvetGraphite-Profile"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Marseille-VelvetTaupe-Profile",
+                            "thumbName": "thumb-Marseille-VelvetTaupe-Profile"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": true,
+                    "imgAlt": "Marseille Bed Frame"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Marseille-LinenNatural-LS",
+                            "thumbName": "thumb-Marseille-LinenNatural-LS"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "imgAlt": "Marseille Bed Frame"
+                }
+            ]
+        }
+    },
+    "minori": {
+        "productName": "Minori",
+        "category": "bed-frames",
+        "warrantyLength": "Lifetime",
+        "pageTitle": "Minori Bed Frame | Saatva",
+        "valueProductKeyword": "Minori",
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Minori-VelvetTaupe-Angle",
+                            "thumbName": "thumb-Minori-VelvetTaupe-Angle"
+                        },
+                        "Natural Linen": {
+                            "name": "Minori-LinenNatural-Angle",
+                            "thumbName": "thumb-Minori-LinenNatural-Angle"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Minori-VelvetGraphite-Angle",
+                            "thumbName": "thumb-Minori-VelvetGraphite-Angle"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Minori-VelvetTaupe-Angle",
+                            "thumbName": "thumb-Minori-VelvetTaupe-Angle"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": true,
+                    "imgAlt": "Minori Bed Frame"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Minori-VelvetTaupe-Front",
+                            "thumbName": "thumb-Minori-VelvetTaupe-Front"
+                        },
+                        "Natural Linen": {
+                            "name": "Minori-LinenNatural-Front",
+                            "thumbName": "thumb-Minori-LinenNatural-Front"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Minori-VelvetGraphite-Front",
+                            "thumbName": "thumb-Minori-VelvetGraphite-Front"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Minori-VelvetTaupe-Front",
+                            "thumbName": "thumb-Minori-VelvetTaupe-Front"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": true,
+                    "imgAlt": "Minori Bed Frame"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Minori-VelvetTaupe-Profile",
+                            "thumbName": "thumb-Minori-VelvetTaupe-Profile"
+                        },
+                        "Natural Linen": {
+                            "name": "Minori-LinenNatural-Profile",
+                            "thumbName": "thumb-Minori-LinenNatural-Profile"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Minori-VelvetGraphite-Profile",
+                            "thumbName": "thumb-Minori-VelvetGraphite-Profile"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Minori-VelvetTaupe-Profile",
+                            "thumbName": "thumb-Minori-VelvetTaupe-Profile"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": true,
+                    "imgAlt": "Minori Bed Frame"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Minori-LinenNatural-LS",
+                            "thumbName": "thumb-Minori-LinenNatural-LS"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "imgAlt": "Minori Bed Frame"
+                }
+            ]
+        }
+    },
+    "santorini": {
+        "productName": "Santorini",
+        "category": "bed-frames",
+        "warrantyLength": "Lifetime",
+        "pageTitle": "Santorini Bed Frame | Saatva",
+        "valueProductKeyword": "Santorini",
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Santorini-VelvetTaupe-Angle",
+                            "thumbName": "thumb-Santorini-VelvetTaupe-Angle"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Santorini-VelvetGraphite-Angle",
+                            "thumbName": "thumb-Santorini-VelvetGraphite-Angle"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Santorini-VelvetTaupe-Angle",
+                            "thumbName": "thumb-Santorini-VelvetTaupe-Angle"
+                        },
+                        "Natural Linen": {
+                            "name": "Santorini-LinenNatural-angle",
+                            "thumbName": "thumb-Santorini-LinenNatural-angle"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": false,
+                    "imgAlt": "Santorini Bed Frame"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Santorini-VelvetTaupe-Front",
+                            "thumbName": "thumb-Santorini-VelvetTaupe-Front"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Santorini-VelvetGraphite-Front",
+                            "thumbName": "thumb-Santorini-VelvetGraphite-Front"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Santorini-VelvetTaupe-Front",
+                            "thumbName": "thumb-Santorini-VelvetTaupe-Front"
+                        },
+                        "Natural Linen": {
+                            "name": "Santorini-LinenNatural-Front",
+                            "thumbName": "thumb-Santorini-LinenNatural-Front"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": false,
+                    "imgAlt": "Santorini Bed Frame"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Santorini-VelvetTaupe-Profile",
+                            "thumbName": "thumb-Santorini-VelvetTaupe-Profile"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Santorini-VelvetGraphite-Profile",
+                            "thumbName": "thumb-Santorini-VelvetGraphite-Profile"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Santorini-VelvetTaupe-Profile",
+                            "thumbName": "thumb-Santorini-VelvetTaupe-Profile"
+                        },
+                        "Natural Linen": {
+                            "name": "Santorini-LinenNatural-Profile",
+                            "thumbName": "thumb-Santorini-LinenNatural-Profile"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": false,
+                    "imgAlt": "Santorini Bed Frame"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Santorini-VelvetGraphite-LS",
+                            "thumbName": "thumb-Santorini-VelvetGraphite-LS"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "imgAlt": "Santorini Bed Frame"
+                }
+            ]
+        }
+    },
+    "porto": {
+        "productName": "Porto",
+        "category": "bed-frames",
+        "warrantyLength": "Lifetime",
+        "pageTitle": "Porto Bed Frame | Saatva",
+        "valueProductKeyword": "Porto",
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Porto-VelvetTaupe-Angle",
+                            "thumbName": "thumb-porto-taupe-angle"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Porto-VelvetGraphite-Angle",
+                            "thumbName": "thumb-porto-graphite-angle"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Porto-VelvetTaupe-Angle",
+                            "thumbName": "thumb-porto-taupe-angle"
+                        },
+                        "Natural Linen": {
+                            "name": "Porto-LinenNatural-Angle",
+                            "thumbName": "thumb-porto-natural-angle"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": false,
+                    "imgAlt": "Porto Bed Frame"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Porto-VelvetTaupe-Front",
+                            "thumbName": "thumb-porto-taupe-front"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Porto-VelvetGraphite-Front",
+                            "thumbName": "thumb-porto-graphite-front"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Porto-VelvetTaupe-Front",
+                            "thumbName": "thumb-porto-taupe-front"
+                        },
+                        "Natural Linen": {
+                            "name": "Porto-LinenNatural-Front",
+                            "thumbName": "thumb-porto-natural-front"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": false,
+                    "imgAlt": "Porto Bed Frame"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Porto-VelvetTaupe-Profile",
+                            "thumbName": "thumb-porto-taupe-profile"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Porto-VelvetGraphite-Profile",
+                            "thumbName": "thumb-porto-graphite-profile"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Porto-VelvetTaupe-Profile",
+                            "thumbName": "thumb-porto-taupe-profile"
+                        },
+                        "Natural Linen": {
+                            "name": "Porto-LinenNatural-Profile",
+                            "thumbName": "thumb-porto-natural-profile"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": false,
+                    "imgAlt": "Porto Bed Frame"
+                }
+            ]
+        },
+        "applyDoNotIndex": true
+    },
+    "copenhagen": {
+        "productName": "Copenhagen",
+        "category": "bed-frames",
+        "warrantyLength": "Lifetime",
+        "pageTitle": "Copenhagen Bed Frame | Saatva",
+        "valueProductKeyword": "Copenhagen",
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Copenhagen-VelvetTaupe-Angle",
+                            "thumbName": "thumb-copenhagen-taupe1"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Copenhagen-VelvetGraphite-Angle",
+                            "thumbName": "thumb-copenhagen-graphite1"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Copenhagen-VelvetTaupe-Angle",
+                            "thumbName": "thumb-copenhagen-taupe1"
+                        },
+                        "Natural Linen": {
+                            "name": "Copenhagen-LinenNatural-Angle",
+                            "thumbName": "thumb-copenhagen-natural1"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": false,
+                    "imgAlt": "Copenhagen Bed Frame"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Copenhagen-VelvetTaupe-Front",
+                            "thumbName": "thumb-copenhagen-taupe2"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Copenhagen-VelvetGraphite-Front",
+                            "thumbName": "thumb-copenhagen-graphite2"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Copenhagen-VelvetTaupe-Front",
+                            "thumbName": "thumb-copenhagen-taupe2"
+                        },
+                        "Natural Linen": {
+                            "name": "Copenhagen-LinenNatural-Front",
+                            "thumbName": "thumb-copenhagen-natural2"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": false,
+                    "imgAlt": "Copenhagen Bed Frame"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Copenhagen-VelvetTaupe-Profile",
+                            "thumbName": "thumb-copenhagen-taupe3"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Copenhagen-VelvetGraphite-Profile",
+                            "thumbName": "thumb-copenhagen-graphite3"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Copenhagen-VelvetTaupe-Profile",
+                            "thumbName": "thumb-copenhagen-taupe3"
+                        },
+                        "Natural Linen": {
+                            "name": "Copenhagen-LinenNatural-Profile",
+                            "thumbName": "thumb-copenhagen-natural3"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": false,
+                    "imgAlt": "Copenhagen Bed Frame"
+                }
+            ]
+        },
+        "applyDoNotIndex": true
+    },
+    "valencia": {
+        "productName": "Valencia",
+        "category": "bed-frames",
+        "warrantyLength": "Lifetime",
+        "pageTitle": "Valencia Bed Frame | Saatva",
+        "valueProductKeyword": "Valencia",
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Valencia-VelvetTaupe-Angle",
+                            "thumbName": "thumb-valencia-taupe1"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Valencia-VelvetGraphite-Angle",
+                            "thumbName": "thumb-valencia-graphite1"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Valencia-VelvetTaupe-Angle",
+                            "thumbName": "thumb-valencia-taupe1"
+                        },
+                        "Natural Linen": {
+                            "name": "Valencia-LinenNatural-Angle",
+                            "thumbName": "thumb-valencia-natural1"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": false,
+                    "imgAlt": "Valencia Bed Frame"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Valencia-VelvetTaupe-Front",
+                            "thumbName": "thumb-valencia-taupe2"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Valencia-VelvetGraphite-Front",
+                            "thumbName": "thumb-valencia-graphite2"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Valencia-VelvetTaupe-Front",
+                            "thumbName": "thumb-valencia-taupe2"
+                        },
+                        "Natural Linen": {
+                            "name": "Valencia-LinenNatural-Front",
+                            "thumbName": "thumb-valencia-natural2"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": false,
+                    "imgAlt": "Valencia Bed Frame"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Valencia-VelvetTaupe-Profile",
+                            "thumbName": "thumb-valencia-taupe3"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Valencia-VelvetGraphite-Profile",
+                            "thumbName": "thumb-valencia-graphite3"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Valencia-VelvetTaupe-Profile",
+                            "thumbName": "thumb-valencia-taupe3"
+                        },
+                        "Natural Linen": {
+                            "name": "Valencia-LinenNatural-Profile",
+                            "thumbName": "thumb-valencia-natural3"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": false,
+                    "imgAlt": "Valencia Bed Frame"
+                }
+            ]
+        },
+        "applyDoNotIndex": true
+    },
+    "sydney": {
+        "productName": "Sydney",
+        "category": "bed-frames",
+        "warrantyLength": "Lifetime",
+        "pageTitle": "Sydney Bed Frame | Saatva",
+        "valueProductKeyword": "Sydney",
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Sydney-VelvetTaupe-Angle",
+                            "thumbName": "thumb-sydney-taupe1"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Sydney-VelvetGraphite-Angle",
+                            "thumbName": "thumb-sydney-graphite1"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Sydney-VelvetTaupe-Angle",
+                            "thumbName": "thumb-sydney-taupe1"
+                        },
+                        "Natural Linen": {
+                            "name": "Sydney-LinenNatural-Angle",
+                            "thumbName": "thumb-sydney-natural1"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": false,
+                    "imgAlt": "Sydney Bed Frame"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Sydney-VelvetTaupe-Front",
+                            "thumbName": "thumb-sydney-taupe2"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Sydney-VelvetGraphite-Front",
+                            "thumbName": "thumb-sydney-graphite2"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Sydney-VelvetTaupe-Front",
+                            "thumbName": "thumb-sydney-taupe2"
+                        },
+                        "Natural Linen": {
+                            "name": "Sydney-LinenNatural-Front",
+                            "thumbName": "thumb-sydney-natural2"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": false,
+                    "imgAlt": "Sydney Bed Frame"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "Sydney-VelvetTaupe-Profile",
+                            "thumbName": "thumb-sydney-taupe3"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "Sydney-VelvetGraphite-Profile",
+                            "thumbName": "thumb-sydney-graphite3"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "Sydney-VelvetTaupe-Profile",
+                            "thumbName": "thumb-sydney-taupe3"
+                        },
+                        "Natural Linen": {
+                            "name": "Sydney-LinenNatural-Profile",
+                            "thumbName": "thumb-sydney-natural3"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedframes",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedframes",
+                    "hasWebp": false,
+                    "imgAlt": "Sydney Bed Frame"
+                }
+            ]
+        },
+        "applyDoNotIndex": true
+    },
+    "organic-weighted-blanket": {
+        "productName": "Organic Weighted Blanket",
+        "pageTitle": "Organic Weighted Blanket - Weighted Blanket - Bedding | Saatva",
+        "pageDescription": "Enjoy restful sleep in the Saatva Organic Weighted Blanket. Its soothing, calming effect feels like a hug. Free shipping + 45-day returns",
+        "warrantyLength": "1-year limited",
+        "category": "bedding",
+        "media": {
+            "slider": [
+                {
+                    "sources": {
+                        "default": {
+                            "name": "blanket-carousel-1",
+                            "thumbName": "blanket-carousel-thumb-1"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "blanket-carousel-1",
+                            "thumbName": "blanket-carousel-thumb-1"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "blanket-carousel-1",
+                            "thumbName": "blanket-carousel-thumb-1"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "imgAlt": "Woman wrapped comfortably in a weighted blanket."
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "blanket-carousel-2",
+                            "thumbName": "blanket-carousel-thumb-2"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "blanket-carousel-2",
+                            "thumbName": "blanket-carousel-thumb-2"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "blanket-carousel-3",
+                            "thumbName": "blanket-carousel-thumb-3"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "imgAlt": "Organic Weighted Blanket laying on a couch"
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "blanket-carousel-4",
+                            "thumbName": "blanket-carousel-thumb-4"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "blanket-carousel-4",
+                            "thumbName": "blanket-carousel-thumb-4"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "blanket-carousel-4",
+                            "thumbName": "blanket-carousel-thumb-4"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "imgAlt": "Woman laying on bed covered in a weighted blanket."
+                },
+                {
+                    "sources": {
+                        "default": {
+                            "name": "blanket-carousel-6",
+                            "thumbName": "blanket-carousel-thumb-6"
+                        },
+                        "Taupe Vintage Velvet": {
+                            "name": "blanket-carousel-6",
+                            "thumbName": "blanket-carousel-thumb-6"
+                        },
+                        "Graphite Vintage Velvet": {
+                            "name": "blanket-carousel-5",
+                            "thumbName": "blanket-carousel-thumb-5"
+                        }
+                    },
+                    "folder": "hero-carousels-wide/bedding",
+                    "thumbFolder": "hero-carousels-wide-thumbs/bedding",
+                    "imgAlt": "Organic Weighted Blanket"
+                }
+            ]
+        },
+        "reviews": {
+            "customRating": 4.8
+        }
+    }
+}

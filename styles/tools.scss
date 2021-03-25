@@ -1,0 +1,132 @@
+@function strip-unit($number) {
+    @if type-of($number) == 'number' and not unitless($number) {
+      @return $number / ($number * 0 + 1);
+    }
+    @return $number;
+}
+
+@function set-fontSize($fontSize) {
+    @return (strip-unit($fontSize) / $global-font-baseline) * 1rem;
+}
+
+@mixin set-font($fontSize, $lineHeight: 1.2) {
+    font-size: set-fontSize($fontSize);
+    @if ($lineHeight != 1.2) {
+        line-height: set-lineHeight($lineHeight, $fontSize);
+    } @else {
+        line-height: $lineHeight;
+    }
+}
+
+@function color($theme-color, $level: 'base') {
+    @return map-get(map-get($theme-colors, $theme-color), $level);
+}
+
+@function breakpoint-next($name, $breakpoints: $breakpoints, $breakpoint-names: map-keys($breakpoints)) {
+    $n: index($breakpoint-names, $name);
+    @return if($n < length($breakpoint-names), nth($breakpoint-names, $n + 1), null);
+}
+
+@function breakpoint-min($name, $breakpoints: $breakpoints) {
+    $min: map-get($breakpoints, $name);
+    @return if($min !=0, $min, null);
+}
+
+@function breakpoint-max($name, $breakpoints: $breakpoints) {
+    $next: breakpoint-next($name, $breakpoints);
+    @return if($next, breakpoint-min($next, $breakpoints) - 1, null);
+}
+
+@mixin media-query-up($name, $breakpoints: $breakpoints) {
+    $min: $name;
+    @if (map-has-key($breakpoints, $name)) {
+        $min: breakpoint-min($name, $breakpoints);
+    } 
+    @if $min {
+        @media (min-width: $min) {
+            @content;
+        }
+    }
+    @else {
+        @content;
+    }
+}
+
+@mixin media-query-down($name, $breakpoints: $breakpoints) {
+    $max: $name;
+    @if (map-has-key($breakpoints, $name)) {
+        $max: breakpoint-max($name, $breakpoints);
+    } 
+    @if $max {
+        @media (max-width: $max) {
+            @content;
+        }
+    }
+    @else {
+        @content;
+    }
+}
+
+@mixin breakpoint($name, $direction: min) {
+    @if ($direction == min) {
+        @include media-query-up($name) {
+            @content;
+        }
+    } @else if ($direction == max) {
+        @include media-query-down($name) {
+            @content;
+        }
+    }
+}
+
+@function spacer($key) {
+    @if map-has-key($spacers, $key) {
+        @return map-get($spacers, $key);
+    }
+    @warn "Unknown `#{$key}` in $spacers.";
+    @return null;
+}
+
+@mixin use-webp-if-available($filepath, $extension, $hasWebpFile) {
+    background-image: url('#{$filepath}.#{$extension}');
+    @if ($hasWebpFile == true) {
+        .webp & {
+            background-image: url('#{$filepath}.webp');
+        }
+    }
+}
+
+@function getImageSource($folder, $name, $devicePrefix, $density) {
+    $devicePrefixString: '#{$devicePrefix}-';
+    @return '#{$rootAssetImagePath}/images/#{$folder}/#{$name}/#{$devicePrefixString}#{$name}@#{$density}x';
+}
+
+@mixin responsive-dpi-img($folder, $name, $type:jpg, $excludeTablet:false, $hasWebpFiles:false, $isProgressive:false) {
+    @if ($isProgressive) {
+        background-image: url('#{$rootAssetImagePath}/images/#{$folder}/#{$name}/p-#{$name}.jpg');
+    }
+
+    @include use-webp-if-available(getImageSource($folder, $name, 'm', '1'), $type, $hasWebpFiles);
+
+    @if ($excludeTablet == false) {
+        @include breakpoint(md) {
+            @include use-webp-if-available(getImageSource($folder, $name, 't', '1'), $type, $hasWebpFiles);
+        }
+    }
+
+    @include breakpoint(lg) {
+        @include use-webp-if-available(getImageSource($folder, $name, 'd', '1'), $type, $hasWebpFiles);
+    }
+
+    @media screen and (min-resolution: 192dpi) {
+        @include use-webp-if-available(getImageSource($folder, $name, 'm', '2'), $type, $hasWebpFiles);
+        @if ($excludeTablet == false) {
+            @include breakpoint(md) {
+                @include use-webp-if-available(getImageSource($folder, $name, 't', '2'), $type, $hasWebpFiles);
+            }
+        }
+        @include breakpoint(lg) {
+            @include use-webp-if-available(getImageSource($folder, $name, 'd', '2'), $type, $hasWebpFiles);
+        }
+    }
+}

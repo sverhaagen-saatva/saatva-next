@@ -1,0 +1,157 @@
+.shoppableHome {
+    &__link {
+        cursor: default;
+    }
+
+    &__container {
+        cursor: pointer;
+        padding: spacer(base);
+        margin: spacer(xs) 0;
+        height: 300px;
+        width: 100%;
+        bottom: 0;
+        align-items: flex-end;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        @include breakpoint(md){
+            height: 202px;
+        }
+
+        @include breakpoint(lg){
+            margin: spacer(sm) 0;
+            height: 300px;
+        }
+
+        &:hover { 
+            background: color(contrast, white);
+            opacity: .85;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+
+    &__compare {
+        display: block;
+        padding: spacer(2xl) 0 0;
+        font-size: set-fontSize(20);
+        font-weight: 300;
+        color: color(text, base);
+        text-decoration: underline;
+
+        &:visited, &:active, &:focus {
+            color: color(text, base);
+            .arrowLink__arrow {
+                stroke: color(text, base);
+            }
+        }
+
+        .arrowLink__arrow {
+            display: inline-block;
+            stroke: color(text, base);
+        }
+    }
+
+    &__content {
+        position: absolute;
+        // left: 0;
+        z-index: 1;
+        width: 100%;
+        color: color(contrast, white);
+
+        &--bottom {
+            // bottom: 0;
+            padding: spacer(sm);
+            background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+
+            @include breakpoint(lg) {
+                padding: spacer(lg) spacer(md);
+            }
+        }
+    }
+
+    &__mattressNameContainer {
+        align-items: flex-end;
+        text-align: left;
+    }
+
+    &__mattressName {
+        color: color(contrast, white);
+        line-height: 1;
+    }
+
+    &__nameLink {
+        color: color(contrast, white);
+    }
+
+    &__awardWinning {
+        @include breakpoint(md){
+            width: 53px;
+        }
+
+        @include breakpoint(lg){
+            width: 80px;
+        }
+    }
+
+    &__features {
+        margin: spacer(2xs) 0;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        
+        @include set-font(14, 1);
+        @include breakpoint(md) {
+            letter-spacing: 4px;
+        }
+    }
+
+    &__financing {
+        display: flex;
+        align-items: baseline;
+        font-weight: normal;
+        @include set-font(14, 1);
+        
+        @include breakpoint(lg) {
+            font-size: set-fontSize(16);
+        }
+    }
+
+    &__klarna {
+        position: relative;
+        margin-top: 0;
+
+        a {
+            color: color(contrast, white);
+            @include set-font(16, 1);
+
+            @include breakpoint(md) {
+                font-size: set-fontSize(18);
+            }
+
+            @include breakpoint(lg) {
+                font-size: set-fontSize(20);
+            }
+        }
+    }
+
+    &__price {
+        margin-left: spacer(xs);
+        padding-left: spacer(xs);
+        font-size: set-fontSize(20);
+        font-weight: 400;
+        border-left: 1px solid color(contrast, white);
+
+        @include breakpoint(md) {
+            font-size: set-fontSize(24);
+        }
+        
+        @include breakpoint(lg) {
+            margin-left: spacer(sm);
+            padding-left: spacer(sm);
+            font-size: set-fontSize(32);
+        }
+    }
+}

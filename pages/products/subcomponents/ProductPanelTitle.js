@@ -1,7 +1,7 @@
 import classNames from 'classnames'
 
 import SvgAwardWinning from '@components/SVGs/SvgAwardWinning'
-import { skus } from 'config/globals'
+import { skus } from '@config/globals'
 import ReviewSummary from './ReviewSummary'
 
 import styles from './ProductPanelTitle.module.scss'
