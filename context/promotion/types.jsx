@@ -1,0 +1,5 @@
+const UPDATE_PROMOTION = 'UPDATE_PROMOTION'
+
+export default {
+    UPDATE_PROMOTION
+}
