@@ -12,3 +12,145 @@ $scaffold-alt1: #268bd2 !default;
 $scaffold-alt2: #12f076 !default;
 $scaffold-alt3: #aa0ec9 !default;
 $svg-stroke: #9AA1A8 !default;
+$saatva-clay: #c19678;
+$saatva-clay-dark: #b19780;
+$saatva-gold: #d5aa63;
+$saatva-ash: #6b6257;
+$saatva-earth: #463F38;
+$saatva-earth-warm: #8C8273;
+$saatva-error: #c80000;
+$saatva-white: #fff;
+$saatva-grey: #000;
+$saatva-grey-light: #909090;
+$saatva-grey-border1: #d2d2d2;
+$saatva-grey-border2: #e3e3e3;
+$saatva-grey-cool: #fafafb;
+$saatva-grey-warm: #f6f5f3;
+$saatva-grey-warmer: #f8f8f8;
+$saatva-red: #9C6A6A;
+$saatva-red-light: #FBF7F4;
+$saatva-blue: #365562;
+$saatva-blue-light: #F5F6F6;
+$saatva-green: #597554;
+$saatva-green-light: #F3F7F4;
+$theme-colors: (
+    contrast: (
+        white: $saatva-white,
+        1: $saatva-grey-cool,
+        2: $saatva-grey-warm,
+        3: $saatva-grey-border1,
+        4: $saatva-grey-border2,
+        5: $saatva-grey-warmer
+    ),
+    darkContrast: (
+        1: $saatva-earth-warm,
+        2: $saatva-ash,
+        3: $saatva-earth
+    ),
+    text: (
+        base: $saatva-grey,
+        hover: $saatva-grey-light,
+        active: $saatva-grey-light,
+        recede: $saatva-grey-light,
+        heading: $saatva-ash,
+        headingDark: $saatva-earth
+    ),
+    nav: (
+        base: $saatva-ash,
+        hover: $saatva-clay-dark,
+        active: $saatva-clay-dark,
+        inactive: tint($saatva-grey, 55%)
+    ),
+    state: (
+        base: $saatva-white,
+        hover: tint($saatva-ash, 90%),
+        active: tint($saatva-ash, 40%)
+    ),
+    action: (
+        base: $saatva-clay,
+        baseHover: tint($saatva-clay, 30%),
+        baseActive: tint($saatva-clay, 30%),
+        dark: $saatva-clay-dark,
+        darkHover: tint($saatva-clay-dark, 90%),
+        darkActive: tint($saatva-clay-dark, 90%)
+    ),
+    negative: (
+        base: $saatva-error
+    ),
+    accent: (
+        base: $saatva-gold,
+        recede: tint($saatva-gold, 30%),
+        text: $saatva-clay-dark,
+        red: $saatva-red,
+        redLight: $saatva-red-light,
+        blue: $saatva-blue,
+        blueLight: $saatva-blue-light,
+        green: $saatva-green,
+        greenLight: $saatva-green-light
+    ),
+    cta: (
+        base: $saatva-gold,
+        baseHover: tint($saatva-gold, 30%),
+        baseActive: tint($saatva-gold, 30%)
+    )
+);
+
+//-------------------------------------------
+// Settings - Spacers
+// ------------------------------------------
+
+$spacer: 1rem !default;
+$spacers: (
+    0: 0,
+    3xs: ($spacer * .125),
+    2xs: ($spacer * .25),
+    xs: ($spacer * .5),
+    sm: ($spacer * .75),
+    base: ($spacer * 1),
+    md: ($spacer * 1.25),
+    lg: ($spacer * 1.5),
+    xl: ($spacer * 1.75),
+    2xl: ($spacer * 2),
+    2dot5xl: ($spacer * 2.5),
+    3xl: ($spacer * 3),
+    3dot75xl: ($spacer * 3.75),
+    4xl: ($spacer * 4),
+    5xl: ($spacer * 5),
+    6xl: ($spacer * 6),
+    7xl: ($spacer * 7),
+    8xl: ($spacer * 8),
+    9xl: ($spacer * 9),
+    10xl: ($spacer * 10)
+) !default;
+
+//-------------------------------------------
+// Settings - Typography
+// ------------------------------------------
+
+$global-font-baseline: 16 !default;
+$fontSize-base: $global-font-baseline * 1px !default;
+
+//-------------------------------------------
+// Settings - Breakpoints
+// ------------------------------------------
+
+$breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 1025px,
+    xl: 1200px,
+    2xl: 1440px
+) !default;
+
+$container-widths: (
+  sm: 540px,
+  md: 680px,
+  lg: 932px,
+  xl: 1110px
+) !default;
+
+$grid-columns: 12 !default;
+$grid-gutter: spacer(sm) !default;
+$grid-gutter-desktop: spacer(base) !default;
+$grid-gutter-vertical: spacer(2xl);

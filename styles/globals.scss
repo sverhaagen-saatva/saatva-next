@@ -77,6 +77,10 @@ p, h1 {
     text-align: center;
 }
 
+.section--alt1 {
+    background-color: #fafafb;
+}
+
 .container {
     position: relative;
     width: 100%;
@@ -361,6 +365,17 @@ p, h1 {
     color: #000;
     font-family: "Source Sans Pro", "Open Sans", "Times New Roman", Times, Georgia, serif;
     font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1.56;
+    text-transform: none;
+}
+
+.t-bodySm {
+    -webkit-font-smoothing: antialiased;
+    color: #000;
+    font-family: "Source Sans Pro", "Open Sans", "Times New Roman", Times, Georgia, serif;
+    font-size: 14px;
     font-weight: 400;
     letter-spacing: normal;
     line-height: 1.56;

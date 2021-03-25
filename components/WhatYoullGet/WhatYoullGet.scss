@@ -1,11 +1,6 @@
 .whatYoullGet {
     padding: spacer(4xl) 0;
 
-    ~div {
-        height: 42px;
-        width: 100%;
-    }
-
     @media (min-width: 768px) {
         padding: 48px 0 80px;
     }
@@ -13,6 +8,11 @@
     &__tile {
         margin-bottom: 40px;
         align-items: center;
+
+        > div {
+            height: 42px;
+            width: 100%;
+        }
 
         &:last-of-type {
             margin-bottom: 0;

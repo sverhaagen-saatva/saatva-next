@@ -5,7 +5,7 @@ import {
 } from '../../config/globals'
 
 const WhatYoullGet = () => {
-    const backgroundPath = `${ROOT_ASSET_PATH}/icons/icon_support.svg`
+    const svgPath = `${ROOT_ASSET_PATH}/icons/icon_support.svg`
     return (
         <section className="section whatYoullGet">
             <div className="container">
@@ -22,7 +22,7 @@ const WhatYoullGet = () => {
                     </div>
                     <div className="whatYoullGet__tile col col--xs-12 col--md-4">
                         <Image
-                            src={backgroundPath}
+                            src={svgPath}
                             className={'whatYoullGet__valueProp'}
                             alt="Support svg"
                             width={100}

@@ -1,0 +1,215 @@
+.pressReviews{
+	
+        @media (min-width: 768px) {
+		padding-left: 0;
+		padding-right: 0; 
+		max-width: 100%;
+		&.flickity-viewport{
+			overflow: visible;
+		}
+	}
+
+	&__slider{
+	
+		&::after{
+			content: 'flickity';
+			display: none;
+	
+			@media (min-width: 768px) {
+				content: '';
+			}
+		}
+	
+		@media (min-width: 768px) {
+			display: flex;
+			justify-content: space-around;
+		}
+	}
+
+	&__slide{
+		display: inline-block;
+		margin: 0 1.25rem;
+		max-width: 200px;
+		min-width: 30%;
+
+		@media (min-width: 572px) {
+			min-width: 20%;
+		}
+
+		@media (min-width: 768px) {
+			margin: 0;
+			max-width: 18%;
+			min-width: auto;
+		}
+
+		@media (min-width: 1200px) {
+			max-width: 200px;
+		}
+
+		p {
+			display: block;
+			max-width: 150px;
+			margin: 1rem auto 0;
+			color: $saatva-ash;
+			font-weight: normal;
+			line-height: 1.43;
+			
+			@media (min-width: 1025px) {
+				max-width: 200px;
+			}
+		}
+
+	}
+
+	&__container {
+		width: 100%;
+		// @include make-container();
+
+		@media (min-width: 1025px) {
+			max-width: 1025px;
+		}
+		
+		@media (min-width: 1200px) {
+			max-width: 1200px;
+		}
+	}
+
+	&__logoWrapper{
+		display: flex;
+		align-items: center;
+        flex-direction: column;
+		justify-content: center;
+	}
+    
+    &--topBorder{
+		padding-top: 2.5rem;
+
+		&:before {
+			content: '';
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			top: 0;
+			width: calc(100% - #{3rem});
+			height: 1px;
+			background-color: $saatva-grey-border1;
+			
+			@media (min-width: 572px) {
+				width: 100%;
+			}
+
+		}
+    }
+}
+
+$press-logo-heights: (
+		forbes: 30px,
+		oprah: 45px,
+		googleLg: 46px,
+		big: 42px,
+		at: 35px,
+		googleSm: 32px,
+		busInsider: 24px,
+		intelGroup: 30px,
+		mensJournal: 24px,
+		nyMag: 32px,
+		googleStars: 16px,
+		gh: 60px
+);
+// TODO: refactor with reviews page for more related className to thirdParty
+.pressReviews__logo {
+	flex: 1 0 auto;
+	fill: $saatva-ash;
+	max-width: 100%;
+
+	&--autoWidth {
+		flex: 0 0 auto;
+	}
+
+	@each $name, $value in $press-logo-heights {
+		&--#{$name} {
+				height: $value;
+		}
+	}
+
+	&--gh {
+		flex: 0 0 auto;
+	}
+}
+
+.productPressReviews {
+font-family: " serif";
+
+    .pressReviews {
+		&__slider {
+			align-items: flex-end;
+
+			&::after {
+				@media (min-width: 768px) {
+					content: 'flickity';
+				}
+
+				@media (min-width: 1025px) {
+					content: '';
+				}
+			}
+
+			@media (min-width: 768px) {
+				display: inherit;
+				justify-content: inherit;
+			}
+
+			@media (min-width: 1025px) {
+				display: flex;
+				justify-content: space-between;
+			}
+		}
+
+		&__slide {
+			min-width: 40%;
+			max-width: none;
+
+			@media (min-width: 572px) {
+				min-width: 30%;
+			}
+
+			@media (min-width: 768px) {
+				min-width: 25%;
+			}
+
+			@media (min-width: 1025px) {
+				min-width: auto;
+			}
+
+			p {
+				max-width: none;
+			}
+		}
+
+		&__logo {
+			&--googleSm {
+				height: 42px;
+			}
+	
+			&--busInsider {
+				height: 39px;
+			}
+	
+			&--mensJournal {
+				height: 30px;
+			}
+	
+			&--intelGroup {
+				height: 50px;
+			}
+		}
+
+		&__info {
+			font-size: set-fontSize(14);
+
+			@media (min-width: 768px) {
+				font-size: .75rem;
+			}
+		}
+    }
+}
