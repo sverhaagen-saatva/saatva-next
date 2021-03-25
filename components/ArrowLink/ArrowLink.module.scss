@@ -1,0 +1,97 @@
+.arrowLink {
+    display: flex;
+    align-items: baseline;
+
+    color: color(action, base);
+
+    &__arrow {
+        stroke: color(action, base);
+        height: 8px;
+        padding-left: 2px;
+        stroke-width: 3px;
+    }
+
+    &--underlined {
+        text-decoration: underline;
+    }
+
+    &--centered {
+        justify-content: center;
+    }
+
+    &--sm {
+        font-size: set-fontSize(12);
+    }
+
+    &--md {
+        font-size: set-fontSize(14);
+    }
+
+    &--lg {
+        font-size: set-fontSize(16);
+    }
+
+    &:visited {
+        color: color(action, base);
+
+        .arrowLink__arrow {
+            stroke: color(action, base);
+        }
+    }
+
+    &:hover, &:active, &:focus {
+        color: color(action, baseHover);
+
+        .arrowLink__arrow {
+            stroke: color(action, baseHover);
+        }
+    }
+
+    &--colorHeading {
+        color: color(text, heading);
+        &:visited {
+            color: color(text, heading);
+    
+            .arrowLink__arrow {
+                stroke: color(text, heading);
+            }
+        }
+    
+        &:hover, &:active, &:focus {
+            color: color(text, active);
+    
+            .arrowLink__arrow {
+                stroke: color(text, active);
+            }
+        }
+
+        .arrowLink__arrow {
+            stroke-width: 1px;
+            stroke: color(text, heading);
+        }
+    }
+
+    &--white {
+        color: red;
+        &:visited {
+            color: red;
+    
+            .arrowLink__arrow {
+                stroke: red;
+            }
+        }
+    
+        &:hover, &:active, &:focus {
+            color: red;
+    
+            .arrowLink__arrow {
+                stroke: red;
+            }
+        }
+
+        .arrowLink__arrow {
+            stroke-width: 1px;
+            stroke: red;
+        }
+    }
+}

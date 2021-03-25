@@ -1,0 +1,18 @@
+{
+    "env": {
+        "browser": true,
+        "node": true,
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "rules": {
+        "react/react-in-jsx-scope": "off",
+        "no-console": "off"
+    },
+    "globals": {
+        "React": "writable"
+    },
+    "parser": "babel-eslint"
+}

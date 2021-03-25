@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import globals from '../config/globals'
+import globals from '@config/globals'
 
 function useIsMobile(isMobileDefault) {
     const [isMobile, setIsMobile] = useState(isMobileDefault)

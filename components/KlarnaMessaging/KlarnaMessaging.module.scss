@@ -1,0 +1,68 @@
+.klarnaMessaging {
+    font-size: set-fontSize(18);
+    @include breakpoint(md) {
+        font-size: set-fontSize(20);
+        margin-top: 2px;
+    }
+    a {
+        font-weight: normal;
+        text-decoration: underline;
+    }
+
+    &--categoryTile {
+        margin-top: spacer(2xs);
+        font-size: set-fontSize(16);
+        color: color(text, base);
+
+        a {
+            font-weight: 400;
+        }
+    }
+
+    &--cartDrawer {
+        font-size: set-fontSize(14);
+    }
+}
+
+.klarnaMessaging__pre, .klarnaMessaging__message{
+    line-height: 1.25;
+    margin-right: spacer(2xs);
+    @include breakpoint(md){
+        font-size: set-fontSize(12);
+    }
+}
+
+.klarnaMessaging__message {
+    margin-bottom: 0;
+}
+
+.klarnaMessagingCustomText{
+    display: flex;
+    flex-direction: row;
+    align-items: inherit;
+    @include breakpoint(md){
+        flex-direction: column;
+    }
+}
+
+.floatingProductPanel--details{
+    .klarnaMessaging{
+        font-size: set-fontSize(16);
+
+        @include breakpoint(md){font-size: set-fontSize(16);}
+        @include breakpoint(lg){font-size: set-fontSize(18);}
+    }
+    .klarnaMessaging__message{
+        font-size: set-fontSize(16);
+        @include breakpoint(lg){font-size: set-fontSize(18);}
+    }
+
+    .klarnaMessagingCustomText{
+        flex-direction: row;
+    }
+
+    .klarnaMessaging__pre{
+        font-size: set-fontSize(16);
+        margin-bottom: 2px
+    }
+}

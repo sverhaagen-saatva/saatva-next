@@ -1,11 +1,7 @@
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
-import './Hero.module.scss'
-import {
-    ROOT_ASSET_PATH
-} from '../../config/globals'
+import { ROOT_ASSET_PATH } from '@config/globals'
 import Image from 'next/image'
-
 
 const Hero = ({
     className,
