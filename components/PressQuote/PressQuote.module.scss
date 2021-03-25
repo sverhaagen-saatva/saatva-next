@@ -1,0 +1,80 @@
+$pressQuote-default: (
+    badge-diameter: 108px,
+    badge-diameter-large: 128px,
+    badge-backgroundColor: color(action),
+    plate-backgroundColor: color(contrast, 2),
+    text-color: color(text, heading),
+    plate-height: 176px,
+    plate-padding: spacer(2xl) spacer(lg) 0,
+    plate-padding-large: 0 spacer(2xl) 0 0
+) !default;
+
+$pressQuote-custom: () !default;
+
+$pressQuote-config: map-merge($pressQuote-default, $pressQuote-custom);
+
+@function getPressQuoteStyle($prop) {
+    @return map-get($pressQuote-config, $prop);
+} 
+    
+
+.pressQuote {
+    padding-bottom: calc(#{getPressQuoteStyle(badge-diameter)} / 2);
+
+    @include breakpoint(md) {
+        padding-bottom: 0;
+        padding-left: calc(#{getPressQuoteStyle(badge-diameter-large)} / 2);
+    }
+
+    &__badge {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate3d(-50%, 0%, 0);
+        
+
+        width: getPressQuoteStyle(badge-diameter);
+        height: getPressQuoteStyle(badge-diameter);
+        
+        border-radius: 50%;
+        background-color: getPressQuoteStyle(badge-backgroundColor);
+
+        @include breakpoint(md) {
+            bottom: 50%;
+            left: calc(#{getPressQuoteStyle(badge-diameter-large)} / 2);
+            transform: translate3d(-50%, 50%, 0);
+
+            width: getPressQuoteStyle(badge-diameter-large);
+            height: getPressQuoteStyle(badge-diameter-large);
+        }
+    }
+
+    &__plate {
+        display: flex;
+        align-items: center;
+        
+        width: 100%;
+        padding: getPressQuoteStyle(plate-padding);
+        padding-bottom: calc(#{getPressQuoteStyle(badge-diameter)}/2 + #{spacer(base)}); // reset based on badge size
+        margin-bottom: 0;
+
+        background-color: getPressQuoteStyle(plate-backgroundColor);
+        color: getPressQuoteStyle(text-color);
+        text-align: center;
+        
+        @include breakpoint(md) {
+            height: getPressQuoteStyle(plate-height);
+            padding: getPressQuoteStyle(plate-padding-large);
+            padding-left: calc(#{getPressQuoteStyle(badge-diameter-large)}/2 + #{spacer(xl)}); // reset based on badge size
+            text-align: left;
+        }
+
+        @include breakpoint(lg) {
+            padding-left: calc(#{getPressQuoteStyle(badge-diameter-large)}/2 + #{spacer(2xl)}); // reset based on badge size
+        }
+    }
+}

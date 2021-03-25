@@ -1,0 +1,19 @@
+.dontTakeItFromUs {
+    // background-size: cover;
+    // @include responsive-dpi-img(home, press-home, jpg, false, true);
+
+    &__content {
+        align-items: center;
+    }
+
+    .pressQuote {
+        width: 100%;
+    }
+
+    &.pressReview .pressQuote--withSlide .pressQuote__plate {
+
+        .flickity-page-dots {
+            margin-top: spacer(xl);
+        }
+    }
+}
