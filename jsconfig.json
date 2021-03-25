@@ -5,6 +5,8 @@
             "@config/*": ["config/*"],
             "@pages/*": ["pages/*"],
             "@components/*": ["components/*"],
+            "@context": ["context/."],
+            "@hooks/*": ["hooks/*"],
             "@styles/*": ["styles/*"],
             "@utils/*": ["utils/*"]
          }

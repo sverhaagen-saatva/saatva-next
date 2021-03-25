@@ -1,7 +1,7 @@
 import Footer from './partials/Footer';
 import PromotionBanner from '@components/PromotionBanner';
 import Header from './partials/Header';
-import { Promotion } from '../../context' 
+import { Promotion, Translations } from '@context'
 
 import styles from './Layout.module.scss';
 
@@ -11,7 +11,9 @@ const Layout = ({ children }) => (
       <PromotionBanner />
     </Promotion.Provider>
     <Header />
-      {children}
+      <Translations.Provider>
+        {children}
+      </Translations.Provider>
     <Footer />
   </div>
 );
