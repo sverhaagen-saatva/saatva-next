@@ -1,0 +1,92 @@
+// //-------------------------------------------
+// // Flickity Styles
+// // ------------------------------------------
+
+.flickity-viewport {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
+
+.flickity-enabled:focus {
+  outline: none;
+}
+
+/* no circle */
+.flickity-button {
+    background: transparent;
+    outline: none;
+}
+/* big previous & next buttons */
+.flickity-prev-next-button {
+    display: none;
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    transform: translate(-45%);
+    top: 45%;
+    cursor: pointer;
+
+    @media (min-width: 1025px) {
+        display: block;
+    }
+
+    &.previous{
+        left: -25px;
+    }
+    &.next{
+        right: -40px;
+    }
+}
+
+/* icon color */
+.flickity-button-icon {
+  fill: #585858;
+}
+
+.flickity-page-dots {
+  width: 100%;
+  margin: 2rem 0 0;
+  line-height: 1;
+}
+
+/* white circles */
+// TODO: Update the color of these to color(nav) as that seems to be the pattern from design
+// We will need to go through all Flickity instances to confirm when implementing that update
+.flickity-page-dots .dot {
+  width: .5rem;
+  height: .5rem;
+  opacity: 1;
+  background: transparent;
+  border: 1px solid #585858;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 10px;
+  cursor: pointer;
+  @media (min-width: 768px) {
+    width: .75rem;
+    height: .75rem;
+  }
+}
+
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+  background: #585858;
+}
+
+// custom container class to account for widths up to 1024px in tablet
+.flickity__container {
+  // maintain container-to-width ratio
+  @media (min-width: 768px) {
+    max-width: calc(100% * #{map-get($container-widths, md)/map-get($breakpoints, md)}); 
+  }
+
+  // accounts for double gutter from nested columns
+  @media (min-width: 1025px) {
+    max-width: calc(#{map-get($container-widths, lg)} + (2 * #{$grid-gutter-desktop}));
+  }
+
+  @media (min-width: 1200px) {
+    max-width: calc(#{map-get($container-widths, xl)} + (2 * #{$grid-gutter-desktop}));
+  }
+}
