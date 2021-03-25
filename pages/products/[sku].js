@@ -16,7 +16,9 @@ const Product = ({
     images,
     starCount,
     reviewCount,
-    outOfStock
+    outOfStock,
+    options,
+    children
 }) => {
     return (
         <section id="productPanel" className={styles.productPanel}>
@@ -42,7 +44,7 @@ const Product = ({
                         </div>
                         <div className="productPanel__content">
                             <div className='col col--xs-12 col--md-10 col--offset-md-1 col--lg-12 col--offset-lg-reset'>
-                                <ProductConfig />
+                                <ProductConfig sku={sku} options={options} />
                                 <div className="productPanel__add">
                                     <LargePriceDisplay
                                         className="productPanel__priceDisplay largePriceDisplay--contrast2"
