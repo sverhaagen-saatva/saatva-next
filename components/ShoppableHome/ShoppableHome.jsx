@@ -32,43 +32,41 @@ const ShoppableHome = () => {
 
         return (
             <a key={`shoppableTile-${i}`} href={`/products/${product.sku}`} className={classes}>
-                {/* <div className={containerClasses}> */}
-                    <Image
-                        className={containerClasses}
-                        src={backgroundPath}
-                        alt={product.imageName}
-                        width={500}
-                        height={350}
-                        objectFit="cover"
-                    />
-                    <div className={`shoppableHome__content shoppableHome__content--bottom shoppableHome__content--bottom--${product.sku}`}>
-                        <div className='shoppableHome__mattressNameContainer'>
-                            { product.sku === globals.skus.classic &&
-                                <SvgAwardWinning
-                                    className="shoppableHome__awardWinning"
-                                    height={30}
-                                    fill={'#fff'}
-                                    width={80}
-                                />
-                            }
-                            <h2 className="t-heading2 u-marginBottom--none shoppableHome__mattressName">
-                                {headerText}
-                            </h2>
-                            <div className="shoppableHome__features">
-                                <span dangerouslySetInnerHTML={{ __html: supplementals[product.sku].feature }}></span>
-                            </div>
-                        </div>
-                        <div className="shoppableHome__financing">
-                            As low as&#160;&#160;
-                            <KlarnaMessaging
-                                className='shoppableHome__klarna'
-                                dataId={globals.KLARNA_MESSAGING_IDS.WITHOUT_ANY_TEXT}
-                                price={product.price}
+                <Image
+                    className={containerClasses}
+                    src={backgroundPath}
+                    alt={product.imageName}
+                    width={500}
+                    height={350}
+                    objectFit="cover"
+                />
+                <div className={`shoppableHome__content shoppableHome__content--bottom shoppableHome__content--bottom--${product.sku}`}>
+                    <div className='shoppableHome__mattressNameContainer'>
+                        { product.sku === globals.skus.classic &&
+                            <SvgAwardWinning
+                                className="shoppableHome__awardWinning"
+                                height={30}
+                                fill={'#fff'}
+                                width={80}
                             />
-                            <span className="shoppableHome__price">${format(product.price)}</span>
+                        }
+                        <h2 className="t-heading2 u-marginBottom--none shoppableHome__mattressName">
+                            {headerText}
+                        </h2>
+                        <div className="shoppableHome__features">
+                            <span dangerouslySetInnerHTML={{ __html: supplementals[product.sku].feature }}></span>
                         </div>
                     </div>
-                {/* </div> */}
+                    <div className="shoppableHome__financing">
+                        As low as&#160;&#160;
+                        <KlarnaMessaging
+                            className='shoppableHome__klarna'
+                            dataId={globals.KLARNA_MESSAGING_IDS.WITHOUT_ANY_TEXT}
+                            price={product.price}
+                        />
+                        <span className="shoppableHome__price">${format(product.price)}</span>
+                    </div>
+                </div>
             </a>
         );
     });
