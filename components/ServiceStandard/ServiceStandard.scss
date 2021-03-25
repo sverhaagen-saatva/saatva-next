@@ -1,0 +1,77 @@
+.imageViolation--serviceStandard {
+    @include breakpoint(350px, max) {
+        padding-top: calc(100vw * (140/768));
+    }
+    
+    padding-top: calc(100vw * (180/350));
+    @include responsive-dpi-img('home', hp-service, jpg, false, true);
+
+    @include breakpoint(sm) {
+        padding-top: calc(100vw * (140/576));
+    }
+    
+    @include breakpoint(md) {
+        padding-top: calc(100vw * (180/768));
+    }
+    
+    @include breakpoint(1000px) {
+        padding-top: calc(100vw * (180/600));
+    }
+
+    @include breakpoint(lg) {
+        padding-top: calc(100vw * (120/1024));
+    }
+
+    @include breakpoint(xl) {
+        padding-top: calc(100vw * (251/1440));
+    }
+    
+    @include breakpoint(2xl) {
+        padding-top: calc(100vw * (251/1440));
+    }
+}
+
+.serviceStandard {
+    &__slider {        
+        .flickity-viewport {
+            overflow: visible;
+        }
+
+        .flickity-slider {
+            height: 100%;
+        }
+
+        &.slides {
+            &::after{
+                content: 'flickity';
+                display: none;
+        
+                @include breakpoint(lg){
+                    content: ''
+                }
+            }
+        }
+    }
+
+    &__slide {
+        width: 100%;
+
+        // TODO: move to flickity? handles varied height content without setting explicit height 
+        // (width must be flexible, so image content may be difficult)
+        &:before {
+            content: '';
+            position: absolute;
+            background-color: color(contrast, 1);
+            height: 150%;
+            width: calc(100% - (2 * #{$grid-gutter}));
+            left: $grid-gutter;
+        }
+    }
+
+    &__box {
+        height: 100%;
+        padding: spacer(md);
+        text-align: center;
+        background-color: color(contrast, 1);
+    }
+}
