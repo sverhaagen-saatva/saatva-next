@@ -1,13 +1,13 @@
 import productData from '../../config/product-api'
-import ProductConfig from './subcomponents/ProductConfig/ProductConfig'
-import ProductSlider from './subcomponents/ProductSlider'
-import DeliveryAndSetup from './subcomponents/DeliveryAndSetup'
-import ProductPanelTitle from './subcomponents/ProductPanelTitle'
-import LargePriceDisplay from '../../components/LargePriceDisplay'
-import { AddToCartButton } from '../../components/Button'
+import ProductConfig from '@components/ProductPageComponents/ProductConfig/ProductConfig'
+import ProductSlider from '@components/ProductPageComponents/ProductSlider'
+import DeliveryAndSetup from '@components/ProductPageComponents/DeliveryAndSetup'
+import ProductPanelTitle from '@components/ProductPageComponents/ProductPanelTitle'
+import LargePriceDisplay from '@components/LargePriceDisplay'
+import { AddToCartButton } from '@components/Button'
 
 import styles from './ProductPanel.module.scss'
-import productPanelTitleStyles from './subcomponents/ProductPanelTitle.module.scss'
+import productPanelTitleStyles from '@components/ProductPageComponents/ProductPanelTitle.module.scss'
 import { useState, useEffect, useCallback } from 'react'
 
 const Product = ({
