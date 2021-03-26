@@ -171,6 +171,10 @@ p, h1 {
     margin-bottom: 3rem!important;
 }
 
+.u-marginBottom--6xl {
+    margin-bottom: 6rem;
+}
+
 .col {
     display: -webkit-flex;
     display: flex;
@@ -187,7 +191,7 @@ p, h1 {
 }
 
 .t-color--white {
-    color: $white;
+    color: $white!important;
 }
 
 .u-textCenter {

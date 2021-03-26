@@ -1,7 +1,5 @@
 .dontTakeItFromUs {
-    // background-size: cover;
-    // @include responsive-dpi-img(home, press-home, jpg, false, true);
-
+    position: relative;
     &__content {
         align-items: center;
     }
@@ -11,7 +9,6 @@
     }
 
     &.pressReview .pressQuote--withSlide .pressQuote__plate {
-
         .flickity-page-dots {
             margin-top: spacer(xl);
         }

@@ -1,11 +1,14 @@
 import { useState, useContext } from 'react';
 import classNames from 'classnames';
-// import { Translations } from '@context';
+import { ROOT_ASSET_PATH } from '@config/globals';
+import { Translations } from '@context';
+import { Button } from '@components/Button';
 import PressQuote from '@components/PressQuote';
 import FlickitySlider from '@components/FlickitySlider';
+import Image from 'next/image';
 
 const DontTakeItFromUs = () => {
-    // const { getTranslatedText } = useContext(Translations.Context);
+    const { getTranslatedText } = useContext(Translations.Context);
 
     const [activeIndex, setActiveIndex] = useState(0);
 
@@ -44,12 +47,20 @@ const DontTakeItFromUs = () => {
         }
     }
 
+    const backgroundPath = `${ROOT_ASSET_PATH}/images/home/press-home/d-press-home@2x.jpg`;
+
     return (
         <section className="section section--lg dontTakeItFromUs">
+            <Image
+                src={backgroundPath}
+                alt="Press Home"
+                layout="fill"
+                objectFit="cover"
+            />
             <div className="container">
                 <div className="row u-flexJustify--center">
                     <div className="dontTakeItFromUs__content col col--xs-10 col--md-11 col--lg-8 u-marginBottom--sm">
-                        {/* <h2 className="t-heading2 u-marginBottom--2dot5xl t-color--white">{getTranslatedText('labels.dontTakeIt')}</h2> */}
+                        <h2 className="t-heading2 u-marginBottom--2dot5xl t-color--white">{getTranslatedText('labels.dontTakeIt')}</h2>
                         <PressQuote
                             className="u-marginBottom--6xl pressQuote--withSlide pressQuote--dontTakeItFromUs"
                             logo={
@@ -58,7 +69,14 @@ const DontTakeItFromUs = () => {
                                         'is-active': i === activeIndex
                                     })
                                     return (
-                                        <img src={review.logo} key={i} className={classes} alt={review.altText}/>
+                                        <Image
+                                           key={i}
+                                           className={classes}
+                                            src={review.logo}
+                                            alt={review.altText}
+                                            width={200}
+                                            height={100}
+                                        />
                                     )
                                 })
                             }>
@@ -80,7 +98,7 @@ const DontTakeItFromUs = () => {
                                 }
                             </FlickitySlider>
                         </PressQuote>
-                        {/* <a className="btn btn--primary u-marginBottom--xs" href={'/mattresses'}>{getTranslatedText('labels.shopMattresses')}</a> */}
+                        <Button className="u-marginBottom--xs" kind="primary" href={'/mattresses'}>{getTranslatedText('labels.shopMattresses')}</Button>
                     </div>
                 </div>
             </div>
