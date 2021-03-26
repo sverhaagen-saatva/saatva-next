@@ -6,31 +6,31 @@ const options = {
         },
         {
             id: 'twin-xl',
-            label: 'Twin'
+            label: 'Twin XL'
         },
         {
             id: 'full',
-            label: 'Twin'
+            label: 'Full'
         },
         {
             id: 'queen',
-            label: 'Twin'
+            label: 'Queen'
         },
         {
             id: 'king',
-            label: 'Twin'
+            label: 'King'
         },
         {
             id: 'split-king',
-            label: 'Twin'
+            label: 'Split King'
         },
         {
             id: 'cal-king',
-            label: 'Twin'
+            label: 'Cal King'
         },
         {
             id: 'split-cal-king',
-            label: 'Twin'
+            label: 'Split Cal King'
         }
     ],
     height: [
@@ -58,3 +58,5 @@ const options = {
         }
     ],
 }
+
+export default options

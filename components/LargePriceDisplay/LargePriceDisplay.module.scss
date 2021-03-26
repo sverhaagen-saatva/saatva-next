@@ -1,0 +1,99 @@
+.largePriceDisplay {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%;
+    line-height: 1rem;
+    font-size: 1rem;
+}
+
+.strikeThroughPrice {
+    letter-spacing: normal;
+    line-height: 1.75;
+    text-transform: none;
+
+    font-size: 1.25rem;
+    color: #8c8c8c;
+    font-weight: 400;
+    text-decoration: line-through;
+    padding-top: 1.5rem;
+    margin-bottom: 0;
+}
+
+.finalPriceContainer {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.finalPriceBefore {
+    text-align: right;
+    margin-bottom: .25rem;
+}
+
+.price {
+    color: #d5aa63;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 2.25rem;
+}
+
+.or {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1.25rem;
+}
+
+.orLabel {
+    background-color: #f6f5f3;
+    line-height: 1;
+    margin: 0;
+    z-index: 1;
+    padding-bottom: .25rem;
+}
+
+.orLine {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid #000;
+}
+
+.klarnaPriceContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.klarnaPriceBefore {
+    margin-bottom: .25rem;
+}
+
+.klarnaPriceInner {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.klarnaPrice {
+    font-weight: 400;
+    font-size: 2.25rem;
+}
+
+.largePriceDisplay klarna-placement-style-body {
+    display: none;
+}
+
+
+.largePriceDisplay a {
+    text-decoration: none;
+}

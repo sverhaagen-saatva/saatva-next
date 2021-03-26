@@ -48,6 +48,7 @@ $navLinkItemHorizontalPaddingWithSubList: 1.25rem;
     justify-content: space-between;
     background-color: color(contrast, white);
     height: $navHeightLg + $navBorderHeight;
+    overflow-x: hidden;
 }
 
 .nav__saatvaLogo {

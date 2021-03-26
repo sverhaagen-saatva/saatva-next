@@ -44,6 +44,7 @@ html,
 body {
   padding: 0;
   margin: 0;
+  font-weight: 300;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -61,7 +62,7 @@ a, a:visited {
   box-sizing: border-box;
 }
 
-p, h1 {
+p, h1, ul, li {
     margin: 0;
     padding: 0;
     border: 0;
@@ -101,6 +102,11 @@ p, h1 {
     margin-right: auto;
     margin-left: auto;
     padding: 0 1.25rem;
+}
+
+.u-paddingHorizontal--none {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .u-paddingBottom--none {
@@ -161,6 +167,11 @@ p, h1 {
 .u-marginVertical--xs {
     margin-top: .5rem;
     margin-bottom: .5rem!important;
+}
+
+.u-marginVertical--lg {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .u-margin--center {
@@ -256,6 +267,17 @@ p, h1 {
         max-width: 100%;
     }
 
+
+    .u-flexAlign--flexEnd {
+        -webkit-align-items: flex-end;
+        align-items: flex-end;
+    }
+
+    .u-flexDisplay {
+        display: -webkit-flex;
+        display: flex;
+    }
+
     .u-flexJustify--center {
         justify-content: center;
     }
@@ -267,6 +289,11 @@ p, h1 {
     .u-flexAlign--center {
         align-items: center;
     }
+
+    .u-paddingHorizontal--none {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 @media (min-width: 572px) {
@@ -275,12 +302,22 @@ p, h1 {
             max-width: 540px;
         }
     }
+
+    .u-paddingHorizontal--none {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 @media (min-width: 576px) {
     .container {
         padding: 0;
         max-width: 540px;
+    }
+
+    .u-paddingHorizontal--none {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
@@ -318,6 +355,11 @@ p, h1 {
     .t-heading2 {
         font-size: 1.75rem;
         line-height: 1.43;
+    }
+
+    .u-paddingHorizontal--none {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
@@ -369,6 +411,11 @@ p, h1 {
         font-size: 2rem;
         line-height: 1.5;
     }
+
+    .u-paddingHorizontal--none {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -380,6 +427,11 @@ p, h1 {
         margin-left: -1rem;
         margin-right: -1rem;
         width: calc(100% + 2rem);
+    }
+
+    .u-paddingHorizontal--none {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
