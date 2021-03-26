@@ -147,71 +147,6 @@ const children = [
         }
     },
 
-    //14.5 luxury firm
-    {
-        sku: '7053-3/3',
-        price: 849.00,
-        options: {
-            size: 'twin',
-            height: '14.5',
-            comfort: 'luxury-firm'
-        }
-    },
-    {
-        sku: '7053-3XL',
-        price: 1049.00,
-        options: {
-            size: 'twin-xl',
-            height: '14.5',
-            comfort: 'luxury-firm'
-        }
-    },
-    {
-        sku: '7053-4/6',
-        price: 1399.00,
-        options: {
-            size: 'full',
-            height: '14.5',
-            comfort: 'luxury-firm'
-        }
-    },
-    {
-        sku: '7053-5/0',
-        price: 1499.00,
-        options: {
-            size: 'queen',
-            height: '14.5',
-            comfort: 'luxury-firm'
-        }
-    },
-    {
-        sku: '7053-6/6',
-        price: 1899.00,
-        options: {
-            size: 'king',
-            height: '14.5',
-            comfort: 'luxury-firm'
-        }
-    },
-    {
-        sku: '7053-3XL-bundle',
-        price: 2098.00,
-        options: {
-            size: 'split-king',
-            height: '14.5',
-            comfort: 'luxury-firm'
-        }
-    },
-    {
-        sku: '7053-CK',
-        price: 1899.00,
-        options: {
-            size: 'cal-king',
-            height: '14.5',
-            comfort: 'luxury-firm'
-        }
-    },
-
     //11.5 firm
     {
         sku: '7056-3/3',
@@ -283,6 +218,137 @@ const children = [
             size: 'split-cal-king',
             height: '11.5',
             comfort: 'firm'
+        }
+    },
+
+    //14.5 plush soft
+    {
+        sku: '7051-3/3',
+        price: 849.00,
+        options: {
+            size: 'twin',
+            height: '14.5',
+            comfort: 'plush-soft'
+        }
+    },
+    {
+        sku: '7051-3XL',
+        price: 1049.00,
+        options: {
+            size: 'twin-xl',
+            height: '14.5',
+            comfort: 'plush-soft'
+        }
+    },
+    {
+        sku: '7051-4/6',
+        price: 1399.00,
+        options: {
+            size: 'full',
+            height: '14.5',
+            comfort: 'plush-soft'
+        }
+    },
+    {
+        sku: '7051-5/0',
+        price: 1499.00,
+        options: {
+            size: 'queen',
+            height: '14.5',
+            comfort: 'plush-soft'
+        }
+    },
+    {
+        sku: '7051-6/6',
+        price: 1899.00,
+        options: {
+            size: 'king',
+            height: '14.5',
+            comfort: 'plush-soft'
+        }
+    },
+    {
+        sku: '7051-3XL-bundle',
+        price: 2098.00,
+        options: {
+            size: 'split-king',
+            height: '14.5',
+            comfort: 'plush-soft'
+        }
+    },
+    {
+        sku: '7051-CK',
+        price: 1899.00,
+        options: {
+            size: 'cal-king',
+            height: '14.5',
+            comfort: 'plush-soft'
+        }
+    },
+
+
+    //14.5 luxury firm
+    {
+        sku: '7053-3/3',
+        price: 849.00,
+        options: {
+            size: 'twin',
+            height: '14.5',
+            comfort: 'luxury-firm'
+        }
+    },
+    {
+        sku: '7053-3XL',
+        price: 1049.00,
+        options: {
+            size: 'twin-xl',
+            height: '14.5',
+            comfort: 'luxury-firm'
+        }
+    },
+    {
+        sku: '7053-4/6',
+        price: 1399.00,
+        options: {
+            size: 'full',
+            height: '14.5',
+            comfort: 'luxury-firm'
+        }
+    },
+    {
+        sku: '7053-5/0',
+        price: 1499.00,
+        options: {
+            size: 'queen',
+            height: '14.5',
+            comfort: 'luxury-firm'
+        }
+    },
+    {
+        sku: '7053-6/6',
+        price: 1899.00,
+        options: {
+            size: 'king',
+            height: '14.5',
+            comfort: 'luxury-firm'
+        }
+    },
+    {
+        sku: '7053-3XL-bundle',
+        price: 2098.00,
+        options: {
+            size: 'split-king',
+            height: '14.5',
+            comfort: 'luxury-firm'
+        }
+    },
+    {
+        sku: '7053-CK',
+        price: 1899.00,
+        options: {
+            size: 'cal-king',
+            height: '14.5',
+            comfort: 'luxury-firm'
         }
     },
 

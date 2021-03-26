@@ -53,10 +53,11 @@ html {
 
 html,
 body {
-    padding: 0;
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
-        Helvetica Neue, sans-serif;
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -84,8 +85,7 @@ h3 {
     position: relative;
 }
 
-p,
-h1 {
+p, h1, ul, li {
     margin: 0;
     padding: 0;
     border: 0;
@@ -131,6 +131,11 @@ h1 {
     padding: 0 1.25rem;
 }
 
+.u-paddingHorizontal--none {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .u-paddingBottom--none {
     padding-bottom: 0;
 }
@@ -141,6 +146,10 @@ h1 {
 
 .u-paddingTop--xs {
     padding-top: 0.5rem;
+}
+
+.u-marginBottom {
+    margin-bottom: 1rem!important;
 }
 
 .u-marginBottom--none {
@@ -168,6 +177,12 @@ h1 {
     flex-grow: 1;
 }
 
+@media only screen and (max-width: 1025px) {
+    .row--gutter-lg > .col {
+        margin-bottom: 2rem;
+    }
+}
+
 .u-marginBottom--2xs {
     margin-bottom: 0.25rem !important;
 }
@@ -187,6 +202,11 @@ h1 {
 .u-marginVertical--xs {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem !important;
+}
+
+.u-marginVertical--lg {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .u-margin--center {
@@ -214,6 +234,14 @@ h1 {
 
 .t-color--white {
     color: $white;
+}
+
+.u-textCenter {
+    text-align: center;
+}
+
+.u-textRight {
+    text-align: right;
 }
 
 .t-heading2 {
@@ -274,6 +302,17 @@ h1 {
         max-width: 100%;
     }
 
+
+    .u-flexAlign--flexEnd {
+        -webkit-align-items: flex-end;
+        align-items: flex-end;
+    }
+
+    .u-flexDisplay {
+        display: -webkit-flex;
+        display: flex;
+    }
+
     .u-flexJustify--center {
         justify-content: center;
     }
@@ -285,8 +324,14 @@ h1 {
     .u-flexAlign--center {
         align-items: center;
     }
+
     .col--offset-xs-1 {
         margin-left: 8.33333%;
+    }
+
+    .u-paddingHorizontal--none {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
@@ -296,12 +341,22 @@ h1 {
             max-width: 540px;
         }
     }
+
+    .u-paddingHorizontal--none {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 @media (min-width: 576px) {
     .container {
         padding: 0;
         max-width: 540px;
+    }
+
+    .u-paddingHorizontal--none {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
@@ -317,6 +372,12 @@ h1 {
     .col--md-4 {
         flex-basis: 33.33333%;
         max-width: 33.33333%;
+    }
+
+    .col--md-6 {
+        -webkit-flex-basis: 50%;
+        flex-basis: 50%;
+        max-width: 50%;
     }
 
     .col--md-8 {
@@ -338,6 +399,11 @@ h1 {
         -webkit-flex-basis: 41.66667%;
         flex-basis: 41.66667%;
         max-width: 41.66667%;
+    }
+
+    .u-paddingHorizontal--none {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
@@ -405,6 +471,11 @@ h1 {
         flex-basis: 25%;
         max-width: 25%;
     }
+
+    .u-paddingHorizontal--none {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -416,6 +487,27 @@ h1 {
         margin-left: -1rem;
         margin-right: -1rem;
         width: calc(100% + 2rem);
+    }
+
+    .u-paddingHorizontal--none {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .containerCol--lg-10 {
+        flex-basis: 83.33333%;
+        max-width: 83.33333%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .containerCol--md-11 {
+        flex-basis: 91.66667%;
+        max-width: 91.66667%;
+        margin: auto;
     }
 }
 

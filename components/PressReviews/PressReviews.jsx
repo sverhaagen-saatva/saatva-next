@@ -27,7 +27,7 @@ const PressReviews = () => {
         {
             logo: `${generalPath}/logo_googlecr.svg`,
             alt: 'Google Customer Reviews',
-            header: <React.Fragment><img src={`${generalPath}/stars_goog.svg`} alt='4.8 user rating' /><br/>4.8 user rating</React.Fragment>,
+            header: <React.Fragment><img src={`${generalPath}/stars_goog.svg`} alt='4.8 user rating' /><br />4.8 user rating</React.Fragment>,
             height: 46,
             width: 130
         },

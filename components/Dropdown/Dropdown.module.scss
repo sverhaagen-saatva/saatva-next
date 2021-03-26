@@ -1,0 +1,117 @@
+.wrapper {
+    position: relative;
+    width: 100%;
+    z-index: 101;
+
+    height: 2.5rem;
+}
+
+.dropdown {
+    position: absolute;
+    top: 0;
+    height: 22rem;
+    width: 100%;
+    overflow: hidden;
+    z-index: 100;
+    pointer-events: none;
+    color: #000;
+    font-size: .9375rem;
+    font-weight: 400;
+    font-family: Source Sans Pro,Open Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+
+.dropDownIcon {
+    width: 12px;
+    height: 17px;
+    fill: none;
+    margin-left: .5rem;
+    stroke: #6b6257;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: transform .3s ease,-webkit-transform .3s ease;
+}
+
+.dropDownIcon.isOpen {
+    transform: scaleY(-1);
+}
+
+.dropdownText {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.toggle {
+    background: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 0 .75rem;
+    width: 100%;
+    height: 2.5rem;
+    background-color: #fff;
+    border: 1px solid #d2d2d2;
+    cursor: pointer;
+    pointer-events: auto;
+    outline: none;
+}
+
+.list {
+    width: 100%;
+    top: 2.5rem;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    background-color: #fff;
+    border: 1px solid #d2d2d2;
+    border-top: none;
+    opacity: 1;
+    box-shadow: none;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    transition: opacity .25s,-webkit-transform .25s;
+    transition: transform .25s,opacity .25s;
+    transition: transform .25s,opacity .25s,-webkit-transform .25s;
+    pointer-events: auto;
+}
+
+.list.isOpen {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.item {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    padding: .25rem .75rem;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+.item.isSelected, .item:focus, .item:hover {
+    background-color: #f0efee;
+    color: #000;
+    outline: none;
+}
+
+.select {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 0;
+}

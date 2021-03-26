@@ -1,0 +1,264 @@
+{
+    "mattresses": {
+        "categoryName": "Mattresses",
+        "saatva-classic": {
+            "title": "Saatva Classic",
+            "subtitle": "Luxury Hybrid Innerspring",
+            "capsuleText": "Breathable comfort",
+            "imageStickerText": "Most popular",
+            "imageStickerTextTest": "Most popular",
+            "description": "America's #1 selling luxury innerspring online. Responsive dual-coil innerspring system is durable, supportive, and cool. Euro pillow top adds a layer of comfort.",
+            "construction": "Hybrid innerspring",
+            "sticker": "Most Popular",
+            "backSupport": "Patented spinal zone technology",
+            "comfortLevels": [
+                {
+                    "name": "Plush Soft"
+                },
+                {
+                    "name": "Luxury Firm"
+                },
+                {
+                    "name": "Firm"
+                }
+            ],
+            "height": "11.5\" or 14.5\"",
+            "linkTo": "productPage",
+            "retailPrice": 2749
+        },
+        "loom-and-leaf": {
+            "title": "Loom & Leaf",
+            "subtitle": "Ultra-Premium Memory Foam",
+            "capsuleText": "Body-hugging",
+            "imageStickerTextTest": "Best Luxury Memory Foam*",
+            "description": "High-density 5-lb. memory foam and cooling support layers contour to your body for pressure relief where you need it most.",
+            "disclaimer": "* Awarded by SleepFoundation.org",
+            "construction": "5-lb memory foam",
+            "backSupport": "Spinal zone gel layer",
+            "comfortLevels": [
+                {
+                    "name": "Relaxed Firm"
+                },
+                {
+                    "name": "Firm"
+                }
+            ],
+            "height": "12\"",
+            "linkTo": "productPage",
+            "retailPrice": 4799
+        },
+        "zenhaven": {
+            "title": "Zenhaven",
+            "subtitle": "100% Pure Talalay Latex",
+            "capsuleText": "Uplifting Support",
+            "imageStickerText": "Pure latex",
+            "description": "Talalay latex delivers uplifting, pressure-free support. Cool, hypoallergenic, antimicrobial and free of harmful chemicals.",
+            "construction": "Hypoallergenic latex and organic cotton",
+            "backSupport": "5-zone Talalay latex",
+            "comfortLevels": [
+                {
+                    "name": "Luxury Plush/Gentle Firm (flippable)"
+                }
+            ],
+            "height": "10\"",
+            "linkTo": "productPage",
+            "retailPrice": 7166
+        },
+        "saatva-hd": {
+            "title": "Saatva HD",
+            "subtitle": "Luxury Hybrid for Bigger Bodies",
+            "capsuleText": "High Durability",
+            "description": "The 1st luxury hybrid engineered to deliver support and comfort to people weighing 300 to 500 pounds, with plush upper layers and a strong coil base.",
+            "construction": "Hybrid innerspring",
+            "backSupport": "Spinal zone active wire",
+            "comfortLevels": [
+                {
+                    "name": "Luxury Firm"
+                }
+            ],
+            "height": "15.5\"",
+            "linkTo": "productPage"
+        },
+        "saatva-youth": {
+            "title": "Saatva Youth",
+            "subtitle": "Dual-sided Innerspring for Growing Bodies",
+            "subtitleTest": "Dual-Sided for Growing Bodies",
+            "capsuleText": "Flippable support",
+            "imageStickerText": "New mattress",
+            "description": "Provides exceptional comfort and support to children ages 3-12. Features a hypoallergenic waterproof organic cotton cover.",
+            "construction": "Dual-sided innerspring",
+            "backSupport": "5-zone foam, Spinal Zone active wire",
+            "sticker": "New",
+            "comfortLevels": [
+                {
+                    "name": "Cushioned firm"
+                }
+            ],
+            "height": "10\"",
+            "linkTo": "productPage"
+        },
+        "saatva-latex-hybrid": {
+            "title": "Saatva Latex Hybrid",
+            "subtitle": "Natural, Organic & Hypoallergenic",
+            "capsuleText": "Organic comfort",
+            "imageStickerTextTest": "Naturally Hypoallergenic",
+            "description": "Handcrafted with pure, nontoxic materials, including 100% natural Talalay latex, organic cotton, organic wool, and recycled steel coils for healthy sleep.",
+            "construction": "Latex hybrid innerspring",
+            "backSupport": "5-zone Talalay latex",
+            "comfortLevels": [
+                {
+                    "name": "Luxury Plush"
+                }
+            ],
+            "height": "13\"",
+            "linkTo": "productPage",
+            "retailPrice": 7166
+        },
+        "solaire": {
+            "title": "Solaire Adjustable",
+            "subtitle": "Customizable Comfort",
+            "capsuleText": "50 Comfort options",
+            "imageStickerTextTest": "Featured in Consumer Reports*",
+            "disclaimer": "* <a target=\"_blank\" href=\"http://reprints.theygsgroup.com/cr/reprints/C106872_Saatva.pdf\">Consumer Reports does not endorse products and services.</a> ",
+            "imageStickerText": "Featured in Consumer Reports*",
+            "description": "Fifty unique firmness settings allow you to individually control your comfort at the touch of a button.",
+            "construction": "Adjustable air",
+            "backSupport": "5-zone Talalay latex",
+            "comfortLevels": [
+                {
+                    "name": "50 precise firmness settings"
+                }
+            ],
+            "height": "13\"",
+            "linkTo": "mattressPage",
+            "retailPrice": 3599
+        },
+        "extra": {
+            "bundle": {
+                "header": "Build your dream bedroom",
+                "description": "Create your best night’s sleep using our Build Your Dream Bed tool. We’ll match you with the perfect mattress, frame, pillows and more.",
+                "buttonText": "Build Your Bundle"
+            },
+            "quiz": {
+                "header": "The Mattress Quiz",
+                "description": "Still not sure which mattress is right for you? Take this quick quiz and we'll match you with the Saatva mattress that we think will best suit your needs.",
+                "buttonText": "Take the Mattress Quiz",
+                "imgSrc": {
+                    "path": "https://s3.amazonaws.com/www.saatva.com/assets/categories/mattresses",
+                    "name": "mattress-quiz_category"
+                },
+                "buttonLink": "/mattress-quiz"
+            },
+            "quizComplete": {
+                "header": "The Mattress Quiz",
+                "description": "Thanks for taking the quiz! View which Saatva mattress was the best match for you.",
+                "buttonText": "View My Results"
+            },
+            "quizCompleteSticker": {
+                "sticker": "Your Quiz Recommendation"
+            },
+            "guide": {
+                "header": "Mattress buyer's guide",
+                "description": "Still not sure which mattress is right for you? Check out our helpful, in-depth guide to choosing the right mattress.",
+                "buttonText": "See Buyer's Guide",
+                "imgSrc": {
+                    "path": "https://s3.amazonaws.com/www.saatva.com/assets/categories/mattresses",
+                    "name": "buyers-guide_category"
+                },
+                "buttonLink": "https://www.saatva.com/blog/ultimate-mattress-buying-guide/"
+            }
+        },
+        "displayProps": {
+            "categoryName": "mattresses",
+            "parentDirectory": "cross-sell",
+            "fileName": "category-mattress",
+            "hasWebp": false,
+            "fileType": "jpg",
+            "buttonLabel": "shopMattresses",
+            "href": "/mattresses"
+        },
+        "crossSell": {
+            "heading": "Mattresses",
+            "description": "Our made-to-order mattresses are handcrafted using the highest quality materials with comfort options to suit every sleeper.",
+            "cta": "Shop All Mattresses",
+            "imageName": "mattresses-category"
+        },
+        "CRDisclaimer": "* Consumer Reports does not endorse products and services."
+    },
+    "bed-frames": {
+        "displayName": "Designer Bed Frames",
+        "categoryName": "Bed Frames",
+        "warrantyLength": "Lifetime",
+        "displayProps": {
+            "categoryName": "bedFrames",
+            "parentDirectory": "cross-sell",
+            "fileName": "category-bed-frames",
+            "hasWebp": false,
+            "fileType": "jpg",
+            "buttonLabel": "shopBedFrames",
+            "href": "/bed-frames"
+        },
+        "oslo": {
+            "description": "The Oslo has a gently scrolled headboard and footboard that are trimmed with nailhead details, and turned wooden feet to complete the look."
+        },
+        "santorini": {
+            "description": "A platform bed, Santorini has a smooth headboard, a lower profile, and graceful legs that seem to float above the floor."
+        },
+        "minori": {
+            "description": "The Minori bed has a subtler profile and a more restrained vibe, with a curved padded headboard and gently tapered wings."
+        },
+        "amalfi": {
+            "description": "The Amalfi has a button-tufted headboard and clean side rails, this bed is versatile enough to work in a dressed-up or dressed-down space."
+        },
+        "marbella": {
+            "description": "The Marbella bed can be a scene-stealer or more laid-back, thanks to optional side panels that create a dramatic focal point."
+        },
+        "marseille": {
+            "description": "With its clean lines, squared-off edges, and crisp details, Marseille lends any bedroom an elegant touch."
+        },
+        "crossSell": {
+            "heading": "Bed Frames",
+            "description": "Our handcrafted upholstered bed frames transform your bedroom into a more stylish, relaxing space.",
+            "cta": "Shop All Bedframes",
+            "imageName": "bed-frames-category"
+        }
+    },
+    "bedding": {
+        "categoryName": "Bedding",
+        "displayProps": {
+            "categoryName": "bedding",
+            "parentDirectory": "cross-sell",
+            "fileName": "category-bedding",
+            "hasWebp": false,
+            "fileType": "jpg",
+            "buttonLabel": "shopBedding",
+            "href": "/bedding"
+        },
+        "bundleTiles": [
+            {
+                "sku": "sateen-sheets-latex-pillow",
+                "imgSrc": {
+                    "name": "sateen-sheets-latex-pillow-category"
+                },
+                "defaultAttributeLabel": "Queen"
+            },
+            {
+                "sku": "sateen-sheets-memory-foam-pillow",
+                "imgSrc": {
+                    "name": "sateen-sheets-memory-foam-pillow-category"
+                },
+                "defaultAttributeLabel": "Queen"
+            },	
+            {	
+                "sku": "sateen-sheets-latex-pillow-pad",	
+                "imgSrc": {	
+                    "name": "sateen-sheets-latex-pillow-pad-category"	
+                },	
+                "defaultAttributeLabel": "Queen"	
+            }
+        ]
+    },
+    "bases": {
+        "categoryName": "Frames & Bases"
+    }
+}

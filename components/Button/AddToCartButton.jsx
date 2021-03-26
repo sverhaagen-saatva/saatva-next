@@ -1,10 +1,11 @@
 import React from 'react'
+import { Button } from '.'
 
-const AddToCartButton = () => {
+const AddToCartButton = ({ className }) => {
     return (
-        <div>
-
-        </div>
+        <Button kind="primary" className={className}>
+            Add 1 Item to Cart
+        </Button>
     )
 }
 
