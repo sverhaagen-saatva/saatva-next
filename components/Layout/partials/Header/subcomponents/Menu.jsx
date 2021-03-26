@@ -23,7 +23,7 @@ const Menu = () => {
     }
 
     const chevornImage = () => {
-        return <svg name="chevron-right" class="icon icon--chevron-right arrowLink__arrow" role="img" alt="Chevron Right" description="Chevron Right" viewBox="0 0 10 20" width="12" height="10" aria-labelledby="arrowLinkIcon"><title id="arrowLinkIcon">Chevron Right</title><polyline points="2,2 8,10 8,10 2,18"></polyline></svg>
+        return <svg name="chevron-right" className="icon icon--chevron-right arrowLink__arrow" role="img" alt="Chevron Right" description="Chevron Right" viewBox="0 0 10 20" width="12" height="10" aria-labelledby="arrowLinkIcon"><title id="arrowLinkIcon">Chevron Right</title><polyline points="2,2 8,10 8,10 2,18"></polyline></svg>
 
     }
 
