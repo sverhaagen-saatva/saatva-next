@@ -17,8 +17,7 @@ const WhatYoullGet = () => {
                             name="cotton" alt={'Alt text'}
                             titleId="cotton" />
                         <h3 className={'t-heading4'}>Premium materials</h3>
-                        <p>
-                            <p>Handcrafted with the highest quality materials, including antimicrobial organic cotton, CertiPUR-US certified foams, and eco-friendly components.</p>                        </p>
+                        <p>Handcrafted with the highest quality materials, including antimicrobial organic cotton, CertiPUR-US certified foams, and eco-friendly components.</p>
                     </div>
                     <div className="whatYoullGet__tile col col--xs-12 col--md-4">
                         <Image

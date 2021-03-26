@@ -62,7 +62,7 @@ const PressReviews = () => {
                     <FlickitySlider options={options} className='pressReviews__slider'>
                         {pressLogos.map((logo, index) => {
                             return (
-                                <div className='pressReviews__slide' key={index}>
+                                <div className='pressReviews__slide' key={`press-reviews-${index}`}>
                                     <span className='pressReviews__logoWrapper'>
                                         <Image
                                             key={`press-reviews-${index}`}
