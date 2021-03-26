@@ -1,13 +1,13 @@
+
+//Tools
+@import './tools';
+
 //Variables
 @import './settings/settingsVariables';
-
-//Utils
 
 //Globals
 @import './globals';
 
-//Tools
-@import './tools';
 
 // Components
 @import './../components/Hero/Hero.module';
@@ -18,3 +18,6 @@
 @import './../components/ShoppableHome/ShoppableHome.module';
 @import './../components/KlarnaMessaging/KlarnaMessaging.module';
 @import './../components/ArrowLink/ArrowLink.module';
+@import './../components/ImageViolation/ImageViolation';
+@import './../components/ServiceStandard/ServiceStandard';
+

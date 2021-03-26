@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
-import { FlickitySlider } from '@components/FlickitySlider/FlickitySlider'
-import { ImageViolation } from '@components/ImageViolation/ImageViolation'
+import FlickitySlider from '@components/FlickitySlider/FlickitySlider'
+import ImageViolation from '@components/ImageViolation/ImageViolation'
 
 const ServiceStandard = () => {
     const flickityOptions = {
@@ -50,7 +50,7 @@ const ServiceStandard = () => {
                                             <div className={slideClasses} key={`home-services-${index}`}>
                                                 <div className="serviceStandard__box">
                                                     <h3 className={slideTitleClasses}>{card.title}</h3>
-                                                    <p>{card.content}</p>
+                                                    <p className={'t-bodyMd'}>{card.content}</p>
                                                 </div>
                                             </div>
                                         )
@@ -64,9 +64,13 @@ const ServiceStandard = () => {
         </React.Fragment>
 
     return (
-        <ImageViolation modifier="serviceStandard">
-            {serviceStandardContent}
-        </ImageViolation>
+        <section className='section section--trimmed'>
+            <ImageViolation
+                modifier="serviceStandard">
+                {serviceStandardContent}
+            </ImageViolation>
+        </section>
+
     )
 }
 

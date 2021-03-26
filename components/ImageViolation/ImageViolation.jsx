@@ -1,5 +1,9 @@
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
+import {
+    ROOT_ASSET_PATH
+} from '../../config/globals'
+import Image from 'next/image'
 
 const ImageViolation = ({
     children,
@@ -19,12 +23,15 @@ const ImageViolation = ({
     return (
         <div className={classes} {...other}>
             <div className="imageViolation__violator">
+                <div className='image-violated'>
                 <Image
                     src={imageSrc}
                     alt='Saatva Servuce'
                     layout='fill'
                     objectFit='cover'
                 />
+                </div>
+
                 <div className="container">
                     {children}
                 </div>

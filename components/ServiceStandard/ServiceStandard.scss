@@ -4,7 +4,6 @@
     }
     
     padding-top: calc(100vw * (180/350));
-    @include responsive-dpi-img('home', hp-service, jpg, false, true);
 
     @include breakpoint(sm) {
         padding-top: calc(100vw * (140/576));
@@ -31,7 +30,15 @@
     }
 }
 
+.image-violated {
+    div{
+        margin-bottom: 140px !important;
+    }
+
+}
+
 .serviceStandard {
+
     &__slider {        
         .flickity-viewport {
             overflow: visible;
@@ -55,17 +62,6 @@
 
     &__slide {
         width: 100%;
-
-        // TODO: move to flickity? handles varied height content without setting explicit height 
-        // (width must be flexible, so image content may be difficult)
-        &:before {
-            content: '';
-            position: absolute;
-            background-color: color(contrast, 1);
-            height: 150%;
-            width: calc(100% - (2 * #{$grid-gutter}));
-            left: $grid-gutter;
-        }
     }
 
     &__box {
