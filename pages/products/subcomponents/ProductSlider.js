@@ -33,9 +33,8 @@ const ProductImageSlider = ({
 
             <div className={styles.sliderThumbTrack}>
                 {sliderThumbs.map((src, i) => (
-                    <div className={classNames(styles.sliderThumb, { [styles.selectedSliderThumb]: selectedIndex === i })}>
+                    <div key={i} className={classNames(styles.sliderThumb, { [styles.selectedSliderThumb]: selectedIndex === i })}>
                         <Image
-                            key={i}
                             className={styles.sliderThumbImage}
                             src={src}
                             width={96}

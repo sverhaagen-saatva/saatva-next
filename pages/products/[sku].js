@@ -8,6 +8,7 @@ import { AddToCartButton } from '../../components/Button'
 
 import styles from './ProductPanel.module.scss'
 import productPanelTitleStyles from './subcomponents/ProductPanelTitle.module.scss'
+import { useState, useEffect, useCallback } from 'react'
 
 const Product = ({
     sku,
@@ -16,10 +17,36 @@ const Product = ({
     images,
     starCount,
     reviewCount,
-    outOfStock,
     options,
     children
 }) => {
+    const [selectedChildProduct, setSelectedChildProduct] = useState(children[0])
+
+    const possibleOptions = Object.keys(options)
+    const initialConfigState = {}
+    possibleOptions.forEach(possibleOption => initialConfigState[possibleOption] = options[possibleOption][0])
+    const [configState, setConfigState] = useState(initialConfigState)
+
+    const changeConfig = useCallback((optionType, optionValue) => {
+        const newConfigState = { ...configState, [optionType]: optionValue }
+        setConfigState(newConfigState)
+    }, [configState])
+
+    useEffect(() => {
+        const newSelectedChildProduct = children.find(child => {
+            const childConfigOptions = Object.keys(child.options)
+            const matchingOptions = childConfigOptions.reduce((total, option) => {
+                const match = child.options[option] === configState[option].id
+                if (match) return total + 1
+                else return total
+            }, 0)
+
+            if (matchingOptions === childConfigOptions.length) return true
+            else return false
+        })
+        if (newSelectedChildProduct) setSelectedChildProduct(newSelectedChildProduct)
+    }, [configState])
+
     return (
         <section id="productPanel" className={styles.productPanel}>
             <div className="container">
@@ -27,10 +54,7 @@ const Product = ({
                     <div className={`col col--xs-12 col--md-12 col--lg-7`}>
                         <ProductSlider
                             images={images.slider} />
-                        {/* <DeliveryAndSetup
-                            className="u-hidden--lg-down"
-                            sku={productImagesSku}
-                            isCompact={true} /> */}
+                        <DeliveryAndSetup />
                     </div>
                     <div className="col col--xs-12 col--md-12 col--lg-5">
                         <div className={productPanelTitleStyles.container}>
@@ -42,19 +66,12 @@ const Product = ({
                                 reviewCount={reviewCount}
                                 sku={sku} />
                         </div>
-                        <div className="productPanel__content">
-                            <div className='col col--xs-12 col--md-10 col--offset-md-1 col--lg-12 col--offset-lg-reset'>
-                                <ProductConfig sku={sku} options={options} />
+                        <div className={styles.productPanelContent}>
+                            <div className='col col--xs-12 col--md-10 col--offset-md-1 col--lg-12 col--offset-lg-reset u-paddingHorizontal--none'>
+                                <ProductConfig sku={sku} options={options} changeConfig={changeConfig} />
                                 <div className="productPanel__add">
-                                    <LargePriceDisplay
-                                        className="productPanel__priceDisplay largePriceDisplay--contrast2"
-                                        priceClassName="productPanel__priceDisplay--price"
-                                    />
-                                    {outOfStock ? (
-                                        <SoldOutMessage productName={name} />
-                                    ) : (
-                                        <AddToCartButton className={'productPanel__addToCart'} />
-                                    )}
+                                    <LargePriceDisplay price={selectedChildProduct.price} />
+                                    <AddToCartButton className={styles.addToCart} />
                                 </div>
                                 {/* <DeliveryAndSetup
                                     className={deliveryAndSetupClassNames}

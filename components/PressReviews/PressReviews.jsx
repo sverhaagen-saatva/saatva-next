@@ -27,7 +27,7 @@ const PressReviews = () => {
         {
             logo: `${generalPath}/logo_googlecr.svg`,
             alt: 'Google Customer Reviews',
-            header: <React.Fragment><img src={`${generalPath}/stars_goog.svg`} alt='4.8 user rating' /><br/>4.8 user rating</React.Fragment>,
+            header: <React.Fragment><img src={`${generalPath}/stars_goog.svg`} alt='4.8 user rating' /><br />4.8 user rating</React.Fragment>,
             height: 46,
             width: 130
         },
@@ -62,7 +62,7 @@ const PressReviews = () => {
                     <FlickitySlider options={options} className='pressReviews__slider'>
                         {pressLogos.map((logo, index) => {
                             return (
-                                <div className='pressReviews__slide'>
+                                <div className='pressReviews__slide' key={index}>
                                     <span className='pressReviews__logoWrapper'>
                                         <Image
                                             key={`press-reviews-${index}`}
