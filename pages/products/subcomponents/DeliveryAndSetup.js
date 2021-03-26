@@ -28,7 +28,7 @@ const DeliveryAndSetup = () => {
                             <Icon name="warranty" alt="Warranty removal icon" titleId="warrantyRemovalIcon" description="Warranty Removal" className={styles.icon} />
                         </div>
                         <h3 className={styles.heading}>180-night home trial</h3>
-                        <p className={styles.description}>We stand by the quality of our products. That’s why your ${name} comes with a 15-year non-prorated warranty.</p>
+                        <p className={styles.description}>We stand by the quality of our products. That’s why your Saatva Classic comes with a 15-year non-prorated warranty.</p>
                     </div>
                 </div>
             </div>
